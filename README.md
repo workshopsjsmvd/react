@@ -1,4 +1,4 @@
-# Workshop: Volando con React
+# Workshop: 🦅 Volando con React
 
 
 
