@@ -1,4 +1,6 @@
 # react
 Workshop sobre React
 
-https://www.technoscore.com/images/services/react-js-icon.png
+<p align="center">
+ <img src="https://www.technoscore.com/images/services/react-js-icon.png" alt="vue">
+</p>
