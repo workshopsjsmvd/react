@@ -37,10 +37,16 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 * *[React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)*
 
 ## Ejercicios
-1. 
-2. 
-3. 
-4. 
+1. 🤷 ¿Por qué aprender React?
+2. 📦 Configurando Webpack
+3. 💣 ReactDOM y JSX
+4. 🎉 Primer componente en React
+5. 💅 Estilos
+6. 📬 Props
+7. 👍 Validando props
+8. 🎫 Eventos
+9. 💾 State
+10. ♻️ Ciclo de vida de los componentes
 
 ## Licencia
 📄 Licencia MIT
