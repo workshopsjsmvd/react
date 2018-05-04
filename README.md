@@ -38,3 +38,18 @@
   * [Template Strings](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings)
   * [Promises](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise)
 * *[React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)*
+
+## Ejercicios
+1. 
+2. 
+3. 
+4. 
+
+## Licencia
+📄 Licencia MIT
+
+---
+*Cualquier consulta, critica, PR o sugerencia es totalmente bienvenida.
+Gracias por acompañarnos en este Workshop!*
+
+**✍️ with ❤️ by [@JuaniGalan23](https://twitter.com/JuaniGalan23) and [@martinvarelaaaa](https://twitter.com/martinvarelaaaa)**
