@@ -1,9 +1,9 @@
 # Workshop: Volando con React
 
 
-🦅  React es una de las mejores opeciones para el desarrollo Front End en la actualidad. En este workshop vas a aprender la simpleza y el poder de esta librería. Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas de manera muy fácil.
+React es una de las mejores opciones para el desarrollo front end en la actualidad. En este workshop vas a aprender la simpleza y el poder de esta librería. Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas de manera muy fácil.
 
-Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de los fundamentos.
+Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de sus fundamentos.
 
 
 <p align="center">
