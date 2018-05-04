@@ -4,7 +4,7 @@
 
 > 🦅  React es una de las mejores opeciones para el desarrollo Front End en la actualidad. En este workshop vas a aprender la simpleza y el poder de esta librería. Te voy a enseñar las bases que te permitirán crear aplicaciones simples o complejas de manera muy fácil.
 
-Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de los fundamentos.
+> Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de los fundamentos.
 
 
 <p align="center">
