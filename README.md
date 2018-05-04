@@ -12,18 +12,16 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 
 ## Materiales
 * 📽 Slides
-* 📻 Proyecto
+* 📻 Proyecto Reactvideo
 * 📚 Bit Book
 
 ## Temas
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+1. Introducción a [React](https://reactjs.org/)
+2. Preparando el entorno
+3. Bases de [React](https://reactjs.org/)
+4. Trabajando con componentes en React
+5. Creando un reproductor de video
 
 ## Requisitos
 
