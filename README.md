@@ -12,8 +12,8 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 
 ## Materiales
 * 📽 Slides
-* 📻 Proyecto Reactvideo
-* 📚 Bit Book
+* 📹 Proyecto Reactvideo
+* 📚 Git Book
 
 ## Temas
 
