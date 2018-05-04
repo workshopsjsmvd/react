@@ -47,6 +47,10 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 8. 🎫 Eventos
 9. 💾 State
 10. ♻️ Ciclo de vida de los componentes
+11. 📝 Listas
+12. 🤡 Pure y Functional components
+13. 🦍 Presentational y Container Components
+14. Composición de componentes
 
 ## Licencia
 📄 Licencia MIT
