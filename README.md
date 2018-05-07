@@ -16,7 +16,6 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 * 📚 Git Book
 
 ## Temas
-
 1. Introducción a [React](https://reactjs.org/)
 2. Preparando el entorno
 3. Bases de [React](https://reactjs.org/)
@@ -24,7 +23,6 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 5. Creando un reproductor de video
 
 ## Requisitos
-
 * Cualquier editor de texto (Recomendamos [Visual Studio Code](https://code.visualstudio.com/) con el plugin [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel))
 * [Node.js](https://nodejs.org/en/) (y npm)
 * Conocimiento basico de JavaScript (`for`, `if`, `object`, `array`, `functions` y `ajax`)
@@ -38,25 +36,22 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 
 ## Ejercicios
 1. 🤷 ¿Por qué aprender React?
-2. 📦 Configurando Webpack
-3. 💣 ReactDOM y JSX
-4. 🎉 Primer componente en React
-5. 💅 Estilos
-6. 📬 Props
-7. 👍 Validando props
-8. 🎫 Eventos
-9. 💾 State
-10. ♻️ Ciclo de vida de los componentes
-11. 📝 Listas
-12. 🤡 Pure y Functional components
-13. 🦍 Presentational y Container Components
-14. 🍦 Composición de componentes
-15. 🤓 Pensando un layout para un proyecto
-16. 🚪 Portals
-17. 🦁 Modal
-18. ⚠️ Manejo de errores
-19. 📝 Forms
-20. 💫 Referencias a eventos y forms
+2. 🤓 Creando elementos HTML con createReactElement API
+3. 💣 Remplazando createReactElement por ReactDOM y JSX
+4. 🎉 Creando el primer componente reutilizable con React
+5. ♻️ Ciclo de vida de los componentes
+6. 📬 Que son las props y cómo validarlas
+7. 🤡 Condicionando un render
+8. 💅 Dando estilo a nuestro  componente
+9. 💫 Escuchando eventos
+10. 💾 Haciendo uso del State
+11. 🤡 Utilizando class components
+12. 🦁 Manipulando el dom con refs
+13. 📝 Creando formularios 
+14. 📝 Listas
+15. 🦍 Haciendo un HTTP request con react
+16. ⚠️ Manejo de errores
+17. 🤡 Pure y Functional components
 
 ## Licencia
 [Licencia MIT](https://github.com/workshopsjsmvd/react/edit/master/LICENSE)
