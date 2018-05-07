@@ -59,7 +59,7 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 20. 💫 Referencias a eventos y forms
 
 ## Licencia
-📄 Licencia MIT
+[Licencia MIT](https://github.com/workshopsjsmvd/react/edit/master/LICENSE)
 
 ---
 *Cualquier consulta, critica, PR o sugerencia es totalmente bienvenida.
