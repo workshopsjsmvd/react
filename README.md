@@ -50,7 +50,13 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 11. 📝 Listas
 12. 🤡 Pure y Functional components
 13. 🦍 Presentational y Container Components
-14. Composición de componentes
+14. 🍦 Composición de componentes
+15. 🤓 Pensando un layout para un proyecto
+16. 🚪 Portals
+17. 🦁 Modal
+18. ⚠️ Manejo de errores
+19. 📝 Forms
+20. 💫 Referencias a eventos y forms
 
 ## Licencia
 📄 Licencia MIT
