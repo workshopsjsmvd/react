@@ -16,7 +16,7 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 
 * 📽 Slides
 * 📹 Proyecto Reactvideo
-* 📚 Git Book
+* [📚 Git Book](https://workshops-js-montevideo.gitbook.io/react/)
 
 ## Temas
 
