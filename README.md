@@ -1,10 +1,10 @@
-# Workshop: Volando con React
+# Conociendo React
 
 React es una de las mejores opciones para el desarrollo front end en la actualidad. En este workshop vas a aprender la simpleza y el poder de esta librería. Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas de manera muy fácil.
 
 Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de sus fundamentos.
 
-![vue](https://www.technoscore.com/images/services/react-js-icon.png)
+![react](https://www.technoscore.com/images/services/react-js-icon.png)
 
 ## Materiales
 
