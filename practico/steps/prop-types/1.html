@@ -30,14 +30,23 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
-        const item = (props) => (<div className="item">{props.name}</div>);
+        const Item = (props) => (<div className={props.className}>{props.children}</div>);
+
+        Item.propTypes = {
+            className(props, propName, componentName) {
+                console.log(props);
+                if(typeof props[propName] !== 'string') {
+                    return new Error(`oops! la prop ${propName} debería ser un string!`)
+                }
+            }
+        };
 
         const title = (
             <div className="workshop-js">
                 <h1 className="workshop-js__title">Workshop de js!</h1>
-                {item({ name: 'Iphone 32 GB Negro' })}
-                {item({ name: 'Iphone 64 GB Negro' })}
-                {item({ name: 'Iphone 32 GB Blanco' })}
+                <Item className="item">Iphone 32 GB Negro</Item>
+                <Item className="item">Iphone 64 GB Negro</Item>
+                <Item className="item">Iphone 32 GB Blanco</Item>
             </div>
         );
 
