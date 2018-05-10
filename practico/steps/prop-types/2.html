@@ -7,6 +7,7 @@
         <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
         <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+        <script src="https://unpkg.com/prop-types@15.6.1/prop-types.js"></script>
         <script src="../../data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
@@ -33,11 +34,7 @@
         const Item = (props) => (<div className={props.className}>{props.children}</div>);
 
         Item.propTypes = {
-            className(props, propName, componentName) {
-                if(typeof props[propName] !== 'string') {
-                    return new Error(`oops! la prop ${propName} debería ser un string!`)
-                }
-            }
+            className: PropTypes.string
         };
 
         const title = (
