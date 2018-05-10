@@ -1518,12 +1518,15 @@ const itemsResponse = {
     ]
 }
 
-const items = {
+const api = {
     data: itemsResponse,
     get: () => {
-        return itemsResponse.results
+        return itemsResponse.results;
     },
     getQuery: () => {
-        return itemsResponse.query
+        return itemsResponse.query;
+    },
+    filter: (name) => {
+        return itemsResponse.results.filter((item) => item.title.indexOf(name) >= 0);
     }
 }
