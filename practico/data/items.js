@@ -1517,3 +1517,13 @@ const itemsResponse = {
       }
     ]
 }
+
+const items = {
+    data: itemsResponse,
+    get: () => {
+        return itemsResponse.results
+    },
+    getQuery: () => {
+        return itemsResponse.query
+    }
+}

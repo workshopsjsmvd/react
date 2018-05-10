@@ -6,7 +6,7 @@
         <!-- Dependencias de React!-->
         <script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
         <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
-        <script src="./data/items.js"></script>
+        <script src="../data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
             rel="stylesheet"
@@ -16,7 +16,7 @@
         />
         <link
             rel="stylesheet"
-            href="./base.css"
+            href="../base.css"
         />
     </head>
 
@@ -28,12 +28,16 @@
 
     <script type="text/javascript">
         const root = document.getElementById('root');
-        const title = document.createElement('h1');
 
-        title.textContent = 'Workshop de JS!'
-        title.className = 'workshop-js';
+        const title = React.createElement(
+            'h1',
+            { 
+                className: 'workshop-js',
+                children: 'Workshop de js!'
+            }
+        );
 
-        root.appendChild(title);
+        ReactDOM.render(title, root);
     </script>
 
 </html>
