@@ -6,7 +6,7 @@ description: >-
 
 # Conociendo React
 
-En este workshop vas a aprender la simpleza y el poder de esta librería. Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas de manera muy fácil.
+En este workshop vas a aprender la simpleza y el poder de esta librería. Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas.
 
 Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de sus fundamentos.
 
@@ -21,10 +21,9 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 ## Temas
 
 1. Introducción a [React](https://reactjs.org/)
-2. Preparando el entorno
-3. Bases de [React](https://reactjs.org/)
-4. Trabajando con componentes en React
-5. Creando un reproductor de video
+2. Bases de [React](https://reactjs.org/)
+3. Trabajando con componentes en React
+4. Creando un reproductor de video
 
 ## Requisitos
 
