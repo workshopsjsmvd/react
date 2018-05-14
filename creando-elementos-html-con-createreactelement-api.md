@@ -69,7 +69,17 @@ React.createElement recibe 3 parámetros básicos:
 2. Las propiedades del elemento
 3. El contenido del elemento
 
-Un elemento creado con React es un object con propiedades, que luego ReactDOM sabe renderizar en el DOM.
+Un elemento creado con React es un object con propiedades, que luego ReactDOM sabe renderizar en el DOM. Para el ejemplo, este sería el object que se crea:
+
+```javascript
+{
+  type: 'div',
+  props: {
+    className: 'container',
+    children: 'Hello world'
+  }
+};
+```
 
 Para saber más sobre como funciona React por debajo puedes [ingresar aquí.](https://reactjs.org/docs/react-without-jsx.html)
 
