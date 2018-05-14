@@ -1,15 +1,14 @@
 ---
 description: >-
   En esta sección aprenderás que es JSX y porque es tan importante en el
-  desarrollo de aplicaciones con React. JSX es el standard para escribir
-  aplicaciones con React.
+  desarrollo de aplicaciones con React.
 ---
 
 # 💣 Remplazando createElement por JSX
 
 ## Introducción
 
-Analicemos esta declaración de variable:
+JSX es el standard para escribir aplicaciones con React. Analicemos esta declaración de variable:
 
 ```javascript
 const element = <h1>Hello world!</h1>;
@@ -17,15 +16,15 @@ const element = <h1>Hello world!</h1>;
 
 El contenido de la variable no es ni HTML ni es un String. Parece HTML pero realmente es una mezcla de JavaScript y HTML. 
 
-Se llama JSX y es una extensión de JavaScript. Los creadores de React recomiendan usarlo para describir como debería ser una interfaz de usuario. Es parecido a un lenguaje de template, con la ventaja de que puedes agregarle todo el JavaScript que quieras, sin limitaciones.
+Se llama JSX y es una extensión de JavaScript. Los creadores de React recomiendan usarlo para describir como debería ser la UI de un componente. Es parecido a un lenguaje de template, con la ventaja de que puedes agregarle todo el JavaScript que quieras, sin limitaciones.
 
-Todo lo que escribimos en JSX se transforma en un "element" cómo vimos en el capítulo anterior.
+Todo lo que escribimos en JSX se transforma en un "element" cómo vimos en el capítulo anterior. Esta transformación la hará con [Babel](https://babeljs.io/).
 
 ## ¿Por qué JSX?
 
 No se requiere realmente usar JSX mientras se trabaja con aplicaciones React. Puedes desarrollar tus aplicaciones con createElement cómo vimos en el capitulo anterior. Pero usar JSX tiene ventajas.
 
-Quizás se hizo popular por su sintaxis tan familiar, es casi como escribir HTML. Ayuda a que la lógica de nuestra UI sea muy descriptiva y fácil de entender.
+Quizás se hizo popular por su sintaxis familiar, es casi como escribir HTML. La lógica de nuestra UI sea muy descriptiva y fácil de entender.
 
 Analicemos este componente:
 
@@ -57,9 +56,9 @@ React.createElement(
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-**Sin JSX** no queda del todo claro que es lo que está sucediendo. **Con JSX** visualizamos rápidamente como será la UI y además podemos entender desde donde se cargará la data rápidamente. Es fácil entender lo que pasará con ese componente.
+**Sin JSX** no queda del todo claro que es lo que está sucediendo. **Con JSX** visualizamos rápidamente como será la UI y además entendemos rápido desde donde se cargará la data. Es fácil entender lo que pasará con ese componente.
 
-Cómo mencionamos el principio es una mezcla de JavaScript y HTML, por eso podemos incrustar variables o incluso código directamente dentro del template.
+Cómo mencionamos, es una mezcla de JavaScript y HTML y por eso podemos incrustar variables o incluso código directamente en el template.
 
 #### Agregando JavaScript
 
@@ -99,9 +98,11 @@ A continuación remplazaremos el código que hicimos en el capitulo anterior por
 </html>
 ```
 
-Cómo verás el código nos quedo mucho mas lindo. Ahora además de incluir los scripts de React y React-Dom agregamos [Babel](https://babeljs.io/), que transformaría el código JSX en llamadas a react.
+Cómo verás el código es mucho mas lindo. 
 
-Babel transforma el código JSX de arriba a la función react que corresponda, para el ejemplo hará lo siguiente:
+Además de incluir los scripts de React y React-Dom ahora agregamos [Babel](https://babeljs.io/). Babel transformará el código JSX en el código equivalente React.
+
+En nuestro ejemplo Babel transforma el código JSX a lo siguiente:
 
 ```javascript
 React.createElement(
@@ -113,14 +114,16 @@ React.createElement(
 
 #### Contenido dinámico
 
-Haciendo que el contenido del componente sea dinámico
+Gracias a JSX y a su posibilidad de incrustar código JavaScript dentro de los template, podemos generar contenidos dinámicos en base a datos, condiciones, etc. A continuación se muestran algunos ejemplos, más adelante en el workshop profundizaremos.
+
+* Haciendo que el contenido del componente sea dinámico
 
 ```javascript
 const content = "Hello word";
 const element = <div>{content}</div>;
 ```
 
-Clases dinámicas
+* Clases dinámicas
 
 ```javascript
 const content = "Hello word";
@@ -128,7 +131,7 @@ const style = "container";
 const element = <div className={style}>{content}</div>;
 ```
 
-Pasándole propiedades
+* Pasándole propiedades
 
 ```javascript
 const content = "Hello word";
