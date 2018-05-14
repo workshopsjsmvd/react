@@ -41,7 +41,7 @@ Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o co
 
 [Licencia MIT](https://github.com/workshopsjsmvd/react/edit/master/LICENSE)
 
-_Cualquier consulta, critica, PR o sugerencia es totalmente bienvenida. Gracias por acompañarnos en este Workshop!_
+_Cualquier consulta, critica, PR o sugerencia es totalmente bienvenida. ¡Gracias por acompañarnos en este Workshop!_
 
 **✍️ with ❤️ by **[**@JuaniGalan23**](https://twitter.com/JuaniGalan23)** and **[**@martinvarelaaaa**](https://twitter.com/martinvarelaaaa)
 
