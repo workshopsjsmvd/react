@@ -112,6 +112,8 @@ React.createElement(
 );
 ```
 
+Para ver como Babel transforma el JSX [puedes utilizar esta consola.](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=DwEwlgbgfAtgpgOwM4EMBWdgHpzSA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=6.26.0&envVersion=)
+
 #### Contenido dinámico
 
 Gracias a JSX y a su posibilidad de incrustar código JavaScript dentro de los template, podemos generar contenidos dinámicos en base a datos, condiciones, etc. A continuación se muestran algunos ejemplos, más adelante en el workshop profundizaremos.
