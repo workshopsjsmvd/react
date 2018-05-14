@@ -6,7 +6,7 @@ description: En esta sección aprenderás a validar las propiedades que recibe u
 
 ## PropTypes
 
-A medida que nuestras aplicación crece, podemos detectar muchos errores con la verificación de tipos. Algunas aplicaciones, utilizan extensiones de JavaScript como [Flow](https://flow.org/) o [TypeScript](https://www.typescriptlang.org/) para tipear toda la aplicación. Pero en el caso que no usemos estas extensiones, react tiene incorporado un validador de tipos. 
+A medida que nuestras aplicación crece, podemos detectar y prevenir muchos errores con la verificación de tipos. Algunas aplicaciones, utilizan extensiones de JavaScript como [Flow](https://flow.org/) o [TypeScript](https://www.typescriptlang.org/) para tipear toda la aplicación. Pero en el caso que no usemos estas extensiones, react tiene incorporado un validador de tipos. 
 
 Veamos un ejemplo:
 
