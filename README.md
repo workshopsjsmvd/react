@@ -1,21 +1,20 @@
 ---
 description: >-
   React es una de las mejores opciones para el desarrollo front end en la
-  actualidad.
+  actualidad. En este workshop vas a aprender la simpleza y el poder de esta
+  librería.
 ---
 
 # Conociendo React
 
-En este workshop vas a aprender la simpleza y el poder de esta librería. Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas.
-
-Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de sus fundamentos.
+Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas. Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de sus fundamentos.
 
 ![react](https://www.technoscore.com/images/services/react-js-icon.png)
 
 ## Materiales
 
 * 📽 Slides
-* 📹 Proyecto Reactvideo
+* 📹 [Proyecto](https://github.com/workshopsjsmvd/react/tree/master/practico)
 * [📚 Git Book](https://workshops-js-montevideo.gitbook.io/react/)
 
 ## Temas
@@ -23,7 +22,7 @@ Este workshop es para principiantes en React y para aquellos que buscan una mejo
 1. Introducción a [React](https://reactjs.org/)
 2. Bases de [React](https://reactjs.org/)
 3. Trabajando con componentes en React
-4. Creando un reproductor de video
+4. Creando un proyecto
 
 ## Requisitos
 
