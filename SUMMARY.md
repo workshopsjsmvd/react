@@ -5,7 +5,7 @@
 * [🤓 Creando elementos HTML con React.createElement API](creando-elementos-html-con-createreactelement-api.md)
 * [💣 Remplazando createElement por JSX](remplazando-createreactelement-por-reactdom-y-jsx.md)
 * [🎉 Creando el primer componente reutilizable con React](creando-el-primer-componente-reutilizable-con-react.md)
-* [📬 Que son las props y cómo validarlas](que-son-las-props-y-como-validarlas.md)
+* [👮 Validando props](que-son-las-props-y-como-validarlas.md)
 * [🤡 Condicionando un render](condicionando-un-render.md)
 * [💅 Dando estilo a nuestro  componente](dando-estilo-a-nuestro-componente.md)
 * [🤡 Utilizando class components](utilizando-class-components.md)
