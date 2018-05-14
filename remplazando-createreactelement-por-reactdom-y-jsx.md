@@ -11,17 +11,13 @@ description: >-
 
 Analicemos esta declaración de variable:
 
-{% code-tabs %}
-{% code-tabs-item title="jsx.js" %}
 ```javascript
 const element = <h1>Hello world!</h1>;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 El contenido de la variable no es ni HTML ni es un String. Parece HTML pero realmente es una mezcla de JavaScript y HTML. 
 
-Se llama JSX y es una extensión de JavaScript. Los creadores de React recomiendan usarlo para describir como debería ser una interfaz de usuario. Parece un lenguaje de template, con la ventaja de que puedes agregarle todo el JavaScript que quieras, sin limitaciones.
+Se llama JSX y es una extensión de JavaScript. Los creadores de React recomiendan usarlo para describir como debería ser una interfaz de usuario. Es parecido a un lenguaje de template, con la ventaja de que puedes agregarle todo el JavaScript que quieras, sin limitaciones.
 
 Todo lo que escribimos en JSX se transforma en un "element" cómo vimos en el capítulo anterior.
 
@@ -61,7 +57,7 @@ React.createElement(
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-**Sin JSX** no queda del todo claro que es lo que está sucediendo. **Con JSX** visualizamos rápidamente como será la UI y además podemos entender desde donde se cargará la data muy rápidamente. Es fácil entender lo que pasará con ese componente.
+**Sin JSX** no queda del todo claro que es lo que está sucediendo. **Con JSX** visualizamos rápidamente como será la UI y además podemos entender desde donde se cargará la data rápidamente. Es fácil entender lo que pasará con ese componente.
 
 Cómo mencionamos el principio es una mezcla de JavaScript y HTML, por eso podemos incrustar variables o incluso código directamente dentro del template.
 
@@ -71,16 +67,12 @@ En el siguiente ejemplo verás como podemos condicionar la UI vía JavaScript de
 
 Si el usuario esta autenticado mostramos un botón de editar su perfil, sino un botón para contactarnos con el usuario del perfil que estamos visitando.
 
-{% code-tabs %}
-{% code-tabs-item title="logic.js" %}
 ```javascript
 <div className='profile'>
   <img src={url} />
   {isAuth ? <EditButton /> : <ContactButton />}
 </div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 ### Remplazando createElement por JSX
 
@@ -107,9 +99,9 @@ A continuación remplazaremos el código que hicimos en el capitulo anterior por
 </html>
 ```
 
-Cómo verás el código nos quedo mucho mas lindo. Ahora además de incluir los scripts de React y React-Dom agregamos [Babel](https://babeljs.io/), que transformaría el código JSX en llamadas a la función react. 
+Cómo verás el código nos quedo mucho mas lindo. Ahora además de incluir los scripts de React y React-Dom agregamos [Babel](https://babeljs.io/), que transformaría el código JSX en llamadas a react.
 
-Babel transformaría el código JSX de arriba a la función react requerida para que funcione:
+Babel transforma el código JSX de arriba a la función react que corresponda, para el ejemplo hará lo siguiente:
 
 ```javascript
 React.createElement(
