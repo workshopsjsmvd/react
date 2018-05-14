@@ -26,7 +26,7 @@ Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o co
 
 ## Requisitos
 
-* Cualquier editor de texto \(Recomendamos [Visual Studio Code](https://code.visualstudio.com/) con el plugin [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)\)
+* Máquina con cualquier editor de texto instalado \(Recomendamos [Visual Studio Code](https://code.visualstudio.com/) con el plugin [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)\)
 * [Node.js](https://nodejs.org/en/) \(y npm\)
 * Conocimiento basico de JavaScript \(`for`, `if`, `object`, `array`, `functions` y `ajax`\)
 * Conocimiento basico de HTML y CSS
