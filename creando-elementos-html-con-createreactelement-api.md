@@ -9,7 +9,7 @@ description: >-
 
 ## Creando un elemento HTML sin React
 
-Antes de empezar con React repasemos como haríamos el clásico Hello Word sin React, con Vanilla JavaScript.
+Antes de empezar con React repasemos como haríamos el clásico Hello Word sin React, con vanilla JavaScript.
 
 {% code-tabs %}
 {% code-tabs-item title="without-react.html" %}
@@ -32,7 +32,7 @@ Antes de empezar con React repasemos como haríamos el clásico Hello Word sin R
 
 ## Creando un elemento HTML con React
 
-Los elementos con React se escriben de una forma bastante similar. El cambio es en el document.createElement y en las propiedades de este elemento.
+Los elementos con React se escriben de forma similar. El cambio principal esta en el document.createElement y en las propiedades de este elemento.
 
 Lo primero que necesitamos es importar los scripts de [React y React-Dom](https://reactjs.org/docs/cdn-links.html), con ellos tenemos acceso a la API de React.
 
@@ -71,5 +71,5 @@ React.createElement recibe 3 parámetros básicos:
 
 Un elemento creado con React es un object con propiedades, que luego ReactDOM sabe renderizar en el DOM.
 
-Para ver más sobre como funciona React por debajo puedes [ingresar aquí.](https://reactjs.org/docs/react-without-jsx.html)
+Para saber más sobre como funciona React por debajo puedes [ingresar aquí.](https://reactjs.org/docs/react-without-jsx.html)
 
