@@ -9,7 +9,7 @@
 * [🤡 Condicionando un render](condicionando-un-render.md)
 * [💅 Dando estilo a nuestro  componente](dando-estilo-a-nuestro-componente.md)
 * [💫 Manejo de eventos](escuchando-eventos.md)
-* [🤡 Utilizando class components](utilizando-class-components.md)
+* [🤡 Los class component](utilizando-class-components.md)
 * [💾 Haciendo uso del State](haciendo-uso-del-state.md)
 * [♻️ Ciclo de vida de los componentes](ciclo-de-vida-de-los-componentes.md)
 * [🦁 Manipulando el dom con refs](manipulando-el-dom-con-refs.md)
