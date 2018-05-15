@@ -43,5 +43,5 @@ Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o co
 
 _Cualquier consulta, critica, PR o sugerencia es totalmente bienvenida. ¡Gracias por acompañarnos en este Workshop!_
 
-**✍️ with ❤️ by **[**@JuaniGalan23**](https://twitter.com/JuaniGalan23)** and **[**@martinvarelaaaa**](https://twitter.com/martinvarelaaaa)
+**✍️ with ❤️ by** [**@JuaniGalan23**](https://twitter.com/JuaniGalan23) **and** [**@martinvarelaaaa**](https://twitter.com/martinvarelaaaa)
 
