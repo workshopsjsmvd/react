@@ -4,7 +4,7 @@ description: En esta sección aprenderás a condicionar el render de un componen
 
 # 🤡 Condicionando un render
 
-## ¿Cómo funciona?
+## ¿Cómo lo hacemos?
 
 Es muy común que en nuestra aplicaciones queramos condicionar secciones de la UI dependiendo de algunas condiciones.
 
