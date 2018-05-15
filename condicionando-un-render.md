@@ -10,8 +10,10 @@ Es muy común que en nuestra aplicaciones queramos condicionar secciones de la U
 
 El [conditional render](https://reactjs.org/docs/conditional-rendering.html) en react funciona de la misma manera que las condicionales en JavaScript. Podemos utilizar un if o el [conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) para condicionar el render de un componente. 
 
-Veamos un ejemplo. Imagina que tenemos un componente para dar un saludo a un usuario que ingresa a nuestra aplicación, en el caso que el ya este autenticado vamos a mostrarle un mensaje, en el caso de que no este autenticado mostraremos otro mensaje:
+Veamos un ejemplo. Imagina que tenemos un componente para dar un saludo a un usuario que ingresa a nuestra aplicación, en caso de que el ya este autenticado vamos a mostrarle un mensaje, en el caso de que no este autenticado le mostraremos otro mensaje:
 
+{% code-tabs %}
+{% code-tabs-item title="messages.js" %}
 ```javascript
 const UserGreeting = (props) => {
   return <h1>Welcome back!</h1>;
@@ -21,9 +23,13 @@ const GuestGreeting = (props) => {
   return <h1>Please sign up.</h1>;
 }
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-Ahora crearemos un componente que contiene los dos saludos, y dependiendo de si esta autenticado o no muestre el que corresponda:
+Estos son los dos mensajes que mostraremos. Ahora crearemos un componente que utiliza los dos mensajes, y dependiendo de si esta autenticado o no muestra el que corresponde:
 
+{% code-tabs %}
+{% code-tabs-item title="greeting.js" %}
 ```javascript
 const Greeting = (props) => {
   const isLoggedIn = props.isLoggedIn;
@@ -38,6 +44,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Como verás, usamos el clásico if para condicionar un componente, sin trucos. Podríamos haberlo hecho utilizando el conditional operator de esta manera:
 
