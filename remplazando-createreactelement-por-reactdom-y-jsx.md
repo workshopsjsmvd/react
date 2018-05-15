@@ -60,19 +60,6 @@ React.createElement(
 
 Cómo mencionamos, es una mezcla de JavaScript y HTML y por eso podemos incrustar variables o incluso código directamente en el template.
 
-#### Agregando JavaScript
-
-En el siguiente ejemplo verás como podemos condicionar la UI vía JavaScript dentro del JSX.
-
-Si el usuario esta autenticado mostramos un botón de editar su perfil, sino un botón para contactarnos con el usuario del perfil que estamos visitando.
-
-```javascript
-<div className='profile'>
-  <img src={url} />
-  {isAuth ? <EditButton /> : <ContactButton />}
-</div>
-```
-
 ### Remplazando createElement por JSX
 
 A continuación remplazaremos el código que hicimos en el capitulo anterior por JSX.
