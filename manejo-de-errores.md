@@ -1,4 +1,0 @@
-# ⚠️ Manejo de errores
-
-
-

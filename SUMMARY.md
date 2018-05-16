@@ -16,6 +16,5 @@
 * [📝 Creando formularios](creando-formularios.md)
 * [📝 Listas](listas.md)
 * [🦍 Haciendo un HTTP request con react](haciendo-un-http-request-con-react.md)
-* [⚠️ Manejo de errores](manejo-de-errores.md)
 * [🤡 Pure y Functional components](pure-y-functional-components.md)
 
