@@ -1,5 +1,5 @@
 ---
-description: En esta sección aprenderás a manipular el DOM con ref.
+description: En esta sección aprenderás a manipular el DOM con refs.
 ---
 
 # 🦁 Manipulando el dom con refs
