@@ -11,6 +11,10 @@ Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o co
 
 ![react](https://www.technoscore.com/images/services/react-js-icon.png)
 
+#### Nota
+
+Utilizaremos la versión 16 de react.
+
 ## Materiales
 
 * 📽 Slides
