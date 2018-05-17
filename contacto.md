@@ -1,5 +1,5 @@
 ---
-description: "Si llegaste aquí es porque terminamos \U0001F605."
+description: "Si llegaste hasta aquí es porque terminamos \U0001F605."
 ---
 
 # ☎️ Contacto
