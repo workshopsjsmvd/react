@@ -15,7 +15,6 @@ Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o co
 
 * 📽 Slides
 * 📹 [Proyecto](https://github.com/workshopsjsmvd/react/tree/master/practico)
-* [📚 Git Book](https://workshops-js-montevideo.gitbook.io/react/)
 
 ## Temas
 
