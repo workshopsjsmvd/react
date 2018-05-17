@@ -7,7 +7,7 @@ description: >-
 
 # Conociendo React
 
-Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas. Este workshop es para principiantes en React y para aquellos que buscan una mejor comprensión de sus fundamentos.
+Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas. Este workshop es para principiantes con [React](https://reactjs.org/) y/o para aquellos que buscan una mejor comprensión de sus fundamentos.
 
 ![react](https://www.technoscore.com/images/services/react-js-icon.png)
 
@@ -18,8 +18,8 @@ Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o co
 
 ## Temas
 
-1. Introducción a [React](https://reactjs.org/)
-2. Bases de [React](https://reactjs.org/)
+1. Introducción
+2. Bases
 3. Trabajando con componentes en React
 4. Creando un proyecto
 
