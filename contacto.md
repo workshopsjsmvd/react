@@ -1,10 +1,10 @@
 ---
-description: Este workshop fue realizado por Juani y Martín.
+description: "Si llegaste aquí es porque terminamos \U0001F605."
 ---
 
 # ☎️ Contacto
 
-Si necesitas comunicarte con nosotros puedes hacerlo por los siguientes medios:
+Este workshop fue realizado por Juani y Martín. Si necesitas comunicarte con nosotros puedes hacerlo por los siguientes medios:
 
 * [**Juani Galan**](https://twitter.com/JuaniGalan23)
 * [**Martín Varela**](https://twitter.com/martinvarelaaaa)
