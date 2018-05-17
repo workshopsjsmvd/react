@@ -1,4 +1,4 @@
-# 🤡 Pure y Functional components
+# ✈️ Pure y Functional components
 
 
 

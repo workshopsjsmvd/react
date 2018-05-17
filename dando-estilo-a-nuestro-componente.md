@@ -12,7 +12,7 @@ Una de las cosas que hacemos cómo desarrolladores es dar estilos a nuestras apl
 
 Todos los componentes react pueden recibir la propiedad [className](https://reactjs.org/docs/faq-styling.html) la cual funciona igual que el atributo class de los elementos HTML. 
 
-Veamos un ejemplo:
+Veamos un ejemplo.
 
 ```javascript
 const component = () => <p className='text'>Hello word</p>
@@ -20,7 +20,7 @@ const component = () => <p className='text'>Hello word</p>
 
 Como puedes ver, pasamos a nuestro componente la propiedad className que cómo dijimos anteriormente funciona exactamente igual que el atributo class de los elementos HTML. Esto quiere decir que en algún lado de nuestra aplicación tendremos un archivo CSS que contendrá una class text. 
 
-Podría ser algo así:
+Podría ser algo así.
 
 {% code-tabs %}
 {% code-tabs-item title="style.css" %}
@@ -44,9 +44,9 @@ En este caso, el resultado es un texto de color rojo con la frase _Hello word_.
 
 ### style prop
 
-Todos los componentes react pueden recibir la propiedad [style](https://reactjs.org/docs/dom-elements.html#style) la cual recibe un object con los estilos que deseamos agregar. React los agregar [inline en el HTML](https://www.w3schools.com/html/html_styles.asp) resultante.
+Todos los componentes react pueden recibir la propiedad [style](https://reactjs.org/docs/dom-elements.html#style) la cual recibe un object con los estilos que deseamos agregar. React los agregará [inline en el HTML](https://www.w3schools.com/html/html_styles.asp) resultante.
 
-Veamos un ejemplo:
+Veamos un ejemplo.
 
 ```javascript
 const style = {
@@ -60,7 +60,7 @@ El resultado será un elemento &lt;p&gt; con el estilo inline. El &lt;p&gt; cont
 
 Cómo habrás notado, las keys del object que le pasamos a la prop style deben estar escritos en [camel case](https://en.wikipedia.org/wiki/Camel_case). Otra particularidad es que los pixeles los estamos pasando como un number sin el 'px'.
 
-Para saber más puedes [ingresar aquí.](https://reactjs.org/docs/dom-elements.html#style)
+Para aprender más puedes [ingresar aquí.](https://reactjs.org/docs/dom-elements.html#style)
 
 #### Nota
 

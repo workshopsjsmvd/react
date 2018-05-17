@@ -8,9 +8,9 @@ description: >-
 
 ## Introducción
 
-Al igual que las cosas en el mundo real, los componentes pasan por 3 etapas: creación, crecimiento o modificación y destrucción.
+Al igual que las cosas en el mundo real, los componentes pasan por ciertas etapas: creación, crecimiento o modificación y destrucción. Veamos que pasa cada vez que un componente se renderiza. 
 
-Veamos que pasa cada vez que un componente se renderiza. Todos los componentes al renderizarse tienen 4 grandes fases:
+Todos los componentes al renderizarse pasan por 4 grandes fases:
 
 1. Iniciación
 2. Montado

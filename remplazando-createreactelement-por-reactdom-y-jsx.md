@@ -1,14 +1,14 @@
 ---
 description: >-
   En esta sección aprenderás que es JSX y porque es tan importante en el
-  desarrollo de aplicaciones con React.
+  desarrollo de aplicaciones con react.
 ---
 
 # 💣 Remplazando createElement por JSX
 
 ## Introducción
 
-JSX es el standard para escribir aplicaciones con React. Analicemos esta declaración de variable:
+JSX es el standard para escribir aplicaciones con react. Analicemos esta declaración de variable:
 
 ```javascript
 const element = <h1>Hello world!</h1>;
@@ -16,13 +16,13 @@ const element = <h1>Hello world!</h1>;
 
 El contenido de la variable no es ni HTML ni es un String. Parece HTML pero realmente es una mezcla de JavaScript y HTML. 
 
-Se llama JSX y es una extensión de JavaScript. Los creadores de React recomiendan usarlo para describir como debería ser la UI de un componente. Es parecido a un lenguaje de template, con la ventaja de que puedes agregarle todo el JavaScript que quieras, sin limitaciones.
+Se llama JSX y es una extensión de JavaScript. Los creadores de react recomiendan usarlo para describir como debería ser la UI de un componente. Es parecido a un lenguaje de template, con la ventaja de que puedes agregarle todo el JavaScript que quieras, sin limitaciones.
 
 Todo lo que escribimos en JSX se transforma en un "element" cómo vimos en el capítulo anterior. Esta transformación la hará con [Babel](https://babeljs.io/).
 
 ## ¿Por qué JSX?
 
-No se requiere realmente usar JSX mientras se trabaja con aplicaciones React. Puedes desarrollar tus aplicaciones con createElement cómo vimos en el capitulo anterior. Pero usar JSX tiene ventajas.
+No se requiere realmente usar JSX mientras se trabaja con aplicaciones react. Puedes desarrollar tus aplicaciones con createElement cómo vimos en el capitulo anterior. Pero usar JSX tiene ventajas.
 
 Quizás se hizo popular por su sintaxis familiar, es casi como escribir HTML. La lógica de nuestra UI sea muy descriptiva y fácil de entender.
 
@@ -87,7 +87,7 @@ A continuación remplazaremos el código que hicimos en el capitulo anterior por
 
 Cómo verás el código es mucho mas lindo. 
 
-Además de incluir los scripts de React y React-Dom ahora agregamos [Babel](https://babeljs.io/). Babel transformará el código JSX en el código equivalente React.
+Además de incluir los scripts de React y React-Dom ahora agregamos [Babel](https://babeljs.io/). Babel transformará el código JSX en el código equivalente en react.
 
 En nuestro ejemplo Babel transforma el código JSX a lo siguiente:
 

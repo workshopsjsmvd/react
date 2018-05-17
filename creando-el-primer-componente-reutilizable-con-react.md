@@ -23,8 +23,6 @@ A simple vista podemos ver que este componente contiene varios sub componentes: 
 
 Si pensamos cómo podríamos estructurar este componente podríamos tener algo así:
 
-{% code-tabs %}
-{% code-tabs-item title="HomeCard.js" %}
 ```javascript
 const HomeCard = (
     <Card>
@@ -37,14 +35,12 @@ const HomeCard = (
     </Card>
 );
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 Estos tags no son tags de HTML, sino que cada uno de ellos son un componente de nuestra propia aplicación. 
 
 ![components](.gitbook/assets/image%20%282%29.png)
 
-Ya empezamos a entender cómo se estructuran las aplicaciones en React. Ahora necesitamos que nuestro componente pueda cargar la información dinámicamente, hasta ahora los datos están fijos por lo tanto no es un componente reutilizable.
+Ya empezamos a entender cómo se estructuran las aplicaciones en react. Ahora necesitamos que nuestro componente pueda cargar la información dinámicamente, hasta ahora los datos están fijos por lo tanto no es un componente reutilizable.
 
 ### Pasando props a nuestro componente
 
@@ -129,7 +125,7 @@ import HomeCard from './components/HomeCard';
 </div>
 ```
 
-Hermoso, nuestro componente ya es completamente reutilizable. Esto lo logramos gracias a las props de react.  
+Hermoso, nuestro componente ya es completamente reutilizable. Esto lo logramos gracias a las props de react. 
 
 Es importante tratar de dividir nuestra aplicación en componentes lo mas pequeños posibles, esto ayuda a que escribamos menos código, tengamos aplicaciones robustas, con menos bugs, testeables y fáciles de mantener.
 

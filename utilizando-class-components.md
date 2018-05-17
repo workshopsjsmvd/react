@@ -4,7 +4,7 @@ description: >-
   características.
 ---
 
-# 🤡 Los class component
+# 🍔 Los class component
 
 ## Introducción
 
@@ -12,7 +12,7 @@ Utilizar la sintaxis de class es una de las formas más comunes de definir un co
 
 Para crear un class component utilizaremos la herencia ya que extenderemos de una class llamada [Component que viene con react.](https://reactjs.org/docs/react-component.html)
 
-Gracias a extender de esta clase podremos hacer cosas cómo manejar un state por componente, escuchar el ciclo de vida, etc. Cosas que vamos a ir viendo a lo largo del workshop.
+Gracias a extender de esta clase podremos hacer cosas cómo manejar el state del componente, escuchar el ciclo de vida, etc. Cosas que vamos a ir viendo a lo largo del workshop.
 
 ## Creando un class component
 
@@ -80,7 +80,7 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
-Cómo verás. la sintaxis es super limpia. Más adelante iremos viendo más características de este tipo de compenente, [puedes ingresar aquí](https://reactjs.org/docs/react-component.html) para aprender más.
+Cómo verás. la sintaxis es super limpia. Más adelante iremos viendo más características de este tipo de compenente, para aprender más [puedes ingresar aquí](https://reactjs.org/docs/react-component.html).
 
 ## Práctico
 

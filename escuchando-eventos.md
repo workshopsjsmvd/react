@@ -13,7 +13,7 @@ Manejar eventos con react es muy parecido a manejar eventos del DOM. Hay algunas
 * React nombra a los eventos utilizando [camel case](https://en.wikipedia.org/wiki/Camel_case).
 * Cuando utilizamos JSX pasamos una function al event handler, en el caso de HTML pasamos un string.
 
-Veamos un ejemplo:
+Veamos un ejemplo.
 
 {% code-tabs %}
 {% code-tabs-item title="with-html.html" %}
@@ -25,7 +25,7 @@ Veamos un ejemplo:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-En el código de arriba, estamos utilizando el DOM directamente, ahora veramos cómo sería utilizando JSX y un element de react:
+En el código de arriba, estamos utilizando el DOM directamente, ahora veamos cómo sería utilizando JSX y un element de react.
 
 {% code-tabs %}
 {% code-tabs-item title="with-react.js" %}
@@ -47,7 +47,7 @@ Cómo verás tiene algunos pequeños cambios. El primero es que cambiamos el nom
 
 Otra diferencia es que no podemos retornar false para evitar el comportamiento por defecto de un  elemento HTML. Esto es algo común cuando queremos ejecutar una function dentro de un &lt;a&gt; ya que por defecto el elemento &lt;a&gt; intenta navegar.
 
-Imaginemos que tenemos un botón el cual es un &lt;a&gt; de HTML. Queremos ejecutar una function cuando un usuario haga click en el y además queremos evitar que navegue. Veamos cómo lo haríamos con HTML y cómo con react.
+Imaginemos que tenemos un botón que es un elemento &lt;a&gt; de HTML. Queremos ejecutar una function cuando un usuario haga click en el y además queremos evitar que navegue. Veamos cómo lo haríamos con HTML y cómo con react.
 
 Con HTML:
 
@@ -57,7 +57,7 @@ Con HTML:
 </a>
 ```
 
-Con react: 
+Con react.
 
 ```javascript
 const handleClick = (event)=> {

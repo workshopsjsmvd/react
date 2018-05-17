@@ -14,15 +14,15 @@ Al igual que con las props, con el state podemos hacer que nuestro componente ca
 
 ## Props vs State
 
-Las props son definidas en el momento que se crea el component, ya sea por JSX o por JavaScript puro. Son simplemente un parámetro que recibe la función que crea nuestro componente. El state, solo vive dentro de nuestro componente, es un dato privado de los class component. Esa es la principal diferencia entre props y state.
+Las props son definidas en el momento que se crea el componente, ya sea por JSX o por JavaScript. Son simplemente un parámetro que recibe la función que crea nuestro componente. El state, solo vive dentro de nuestro componente, es un dato privado de los class component. Esa es la principal diferencia entre props y state.
 
 Cuando pensamos en props, pensamos en datos de iniciación de un componente. Cuando pensamos en state, pensamos en datos internos del componente que pueden cambiar y modificar su comportamiento. Un componente no puede modificar el valor de sus props, pero si el de su state.
 
 ## Un ejemplo
 
-Veamos un ejemplo clásico en donde necesitamos utilizar el state. Imagina que necesitas crear un componente Clock que debe ser reutilizable y encapsulado. Debe tener la capacidad de configurar el su temporizador y actualizarse cada un segundo.
+Veamos un ejemplo clásico en donde necesitamos utilizar el state. Imagina que necesitas crear un componente Clock que debe ser reutilizable y encapsulado. Debe tener la capacidad de configurar su temporizador y actualizarse cada un segundo.
 
-Primero intentemos hacerlo sin el uso del state:
+Primero intentemos hacerlo sin el uso del state.
 
 ```javascript
 const Clock = (props) => (
@@ -42,7 +42,7 @@ const tick = () => {
 setInterval(tick, 1000);
 ```
 
-Cómo veras nuestro reloj funciona. PERO no cumplimos con un requerimiento clave para las aplicaciones orientadas a componentes: Clock debe ser un componente encapsulado y reutilizable, debe saber configurarse el mismo y auto actualizarse cada un segundo. En el ejemplo Clock no sabe actualizarse, simplemente renderiza lo que le llega por props.
+Cómo veras nuestro reloj funciona. PERO no cumplimos con un requerimiento clave para las aplicaciones orientadas a componentes: **Clock debe ser un componente encapsulado y reutilizable**, debe saber configurarse el mismo y actualizarse cada un segundo. En el ejemplo Clock no sabe actualizarse, simplemente renderiza lo que le llega por props.
 
 Para lograrlo, necesitamos utilizar el state, veamos cómo hacerlo.
 
@@ -77,7 +77,7 @@ Clock ahora está definido cómo una clase en lugar de cómo una function, esto 
 
 Ahora pasaremos el valor que nos llega en this.props.date al state. Para ellos seguiremos 3 pasos.
 
-1. Remplazar this.props.date por this.state.date en el método render:
+1. Remplazar this.props.date por this.state.date en el método render
 
 ```javascript
 class Clock extends React.Component {
@@ -92,7 +92,7 @@ class Clock extends React.Component {
 }
 ```
 
-2. Agregamos un constructor de class que inicie el state:
+2. Agregamos un constructor de class que inicie el state
 
 ```javascript
 class Clock extends React.Component {
