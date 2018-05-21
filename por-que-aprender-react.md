@@ -14,7 +14,7 @@ Es una librería de JavaScript que nos va a ayudar a construir interfaces de usu
 
 Desde hace un tiempo, las necesidades de las UI han ido aumentando. Las aplicaciones son cada día mas complejas y ya no nos alcanza con tener páginas simples con HTML algo de JavaScript y CSS.
 
-Hoy en día las aplicaciones son dinámicas, manejan datos, disparan muchos eventos, contienen animaciones complejas, se comunican con otros sistemas y muchas cosas más. ¿Todo esto se podría hacer con JavaScript vanilla? Si, se podría. ¿Vale la pena? No, esa opción tiene muchos problemas, por ejemplo: no escala, código ilegible, problemas de performance, etc.
+Hoy en día las aplicaciones son dinámicas, manejan datos, disparan muchos eventos, contienen animaciones complejas, se comunican con otros sistemas y muchas cosas más. ¿Todo esto se podría hacer con JavaScript vanilla? Si, se podría. ¿Vale la pena? Depende del caso, pero usualmente esa opción tiene algunas desventajas como por ejemplo poca escalabilidad, el código es usualmente complejo de entender, problemas de performance, etc.
 
 ### Evolución del front end
 
@@ -29,7 +29,7 @@ jQuery es una librería de JavaScript que como dice su slogan "escribe menos hac
 Si hoy en día tenemos problemas entre diferentes navegadores, eventos, etc imagina en el año 2005. Esta librería era un super en el año 2005. Pero las UI comenzaron a tener más complejidad y se fue quedando chica.
 
 #### 2010
-
+// Martin, ojo que esto no es TAN asi, backbone js hoy en día hace pila de cosas por si solo, si bien usa jQuery, no es un apoyo.
 Para cubrir las necesidades que tenía jQuery llega [BackboneJS](http://backbonejs.org/). Se utilizaba como apoyo para jQuery, nos ayudaba a interactuar con datos, por ejemplo a trabajar con listas. jQuery se encargaba de la UI y Backbone se encargaba del trabajo con los datos de la aplicación.
 
 #### 2012 llegan los frameworks
@@ -64,7 +64,7 @@ Es declarativo. A continuación vemos un ejemplo de cómo podría estructurarse 
 </MyApp>
 ```
 
-Cómo ves, es muy sencillo de leer y se entiende rápidamente lo que hace nuestra aplicación.
+Cómo vés, es muy sencillo de leer y se entiende rápidamente lo que hace nuestra aplicación.
 
 #### Basado en componentes
 
@@ -80,7 +80,7 @@ Cada componente debe funcionar por si mismo pero a la vez debe poder ser conecta
 
 #### Independiente y dónde quieras
 
-Algo muy interesado de react es que una vez que decides utilizarlo en una aplicación existente, no debes migrar toda tu aplicación a react. Migrarla puede ser un trabajo de días, meses o años.
+Algo muy interesante de react es que una vez que decides utilizarlo en una aplicación existente, no debes migrar toda tu aplicación a react. Migrarla puede ser un trabajo de días, meses o años.
 
 Los creadores pensaron en que se pudiera utilizar de forma independiente. Imagina que tienes una aplicación desarrollada con Angular y deseas pasarte a react. Lo que puedes ir haciendo es escribir los componentes nuevos en react, ellos se integraran de forma transparente con el resto de tu aplicación, sin necesidad de tirar el código que ya tienes en Angular.
 

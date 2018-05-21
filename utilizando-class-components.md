@@ -80,6 +80,7 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
+// le agregaria el bind acá para ser claros.
 Cómo verás. la sintaxis es super limpia. Más adelante iremos viendo más características de este tipo de compenente, para aprender más [puedes ingresar aquí](https://reactjs.org/docs/react-component.html).
 
 ## Práctico

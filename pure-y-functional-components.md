@@ -5,7 +5,8 @@ description: >-
 ---
 
 # ✈️ Presentational y Container components
-
+// vale realmente la pena contar de este tipo de prácitcas? creo que de la misma manera habria que hablar de High order components, render props, etc. 
+// Capaz que son cosas muy avanzadas ?
 ## Introducción
 
 Es un patrón simple y muy útil en el desarrollo de aplicaciones react. A medida que ganamos experiencia en react surge casi de forma intuitiva utilizar este patrón. 

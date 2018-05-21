@@ -5,7 +5,7 @@ description: En esta sección aprenderás a manejar listas con react.
 # 📝 Listas
 
 ## En JavaScript
-
+// No se si tiene sentido hacer una parte de listas acá, yo pensaba utilizarlo en el practico bien temprano, capaz que mejor es dar toda esta sección directamente en el practico.
 Primero, repasemos cómo transformar las listas en JavaScript.
 
 En el código de aquí debajo, tomamos una lista de números y utilizamos [map\(\)](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map) para duplicar los valores. Asignaremos el resultado devuelto por map\(\) a una nueva variable.

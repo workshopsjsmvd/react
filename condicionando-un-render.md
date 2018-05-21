@@ -55,6 +55,9 @@ ReactDOM.render(
 
 Para ver aprender más sobre cómo condicionar un render puedes [ingresar aquí.](https://reactjs.org/docs/conditional-rendering.html)
 
+// Acá agregaría una condicion dentro del componente, onda { isLoggedIn && bla bla} para mostrar como se puede usar el condicional dentro de ahi si
+// en realidad lo que queres hacer es evitar el render de una sección del componente
+
 ## Práctico
 
 Llevemos esto a la práctica, vamos a bla bla bla bla bla

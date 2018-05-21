@@ -38,6 +38,8 @@ const HomeCard = (
 
 Estos tags no son tags de HTML, sino que cada uno de ellos son un componente de nuestra propia aplicación. 
 
+// el meme tendria que decir components en plural :)
+
 ![components](.gitbook/assets/image%20%282%29.png)
 
 Ya empezamos a entender cómo se estructuran las aplicaciones en react. Ahora necesitamos que nuestro componente pueda cargar la información dinámicamente, hasta ahora los datos están fijos por lo tanto no es un componente reutilizable.

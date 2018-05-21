@@ -4,7 +4,7 @@ description: >-
   desarrollo de aplicaciones con react.
 ---
 
-# 💣 Remplazando createElement por JSX
+# 💣 Reemplazando createElement por JSX
 
 ## Introducción
 
@@ -60,7 +60,7 @@ React.createElement(
 
 Cómo mencionamos, es una mezcla de JavaScript y HTML y por eso podemos incrustar variables o incluso código directamente en el template.
 
-### Remplazando createElement por JSX
+### Reemplazando createElement por JSX
 
 A continuación remplazaremos el código que hicimos en el capitulo anterior por JSX.
 
