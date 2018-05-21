@@ -23,6 +23,7 @@ En cada una de estas fases se ejecutan diferentes métodos que veremos a continu
 
 Es lo primero que ocurre. El primer método que se llama en esta fase es el **constructor**\(cómo vimos en la sección anterior del workshop\). En este método es donde iniciamos nuestro componente, por ejemplo: su state, sus props default, se bindean métodos, etc.
 
+// no se si pondría NUNCA, pondría que es una práctica que se intenta no hacer
 Un error común\(que cometimos en la sección anterior\) es agregar lógica dentro de este método, nunca debemos hacerlo, para ello hay otros métodos que veremos a continuación.
 
 ### Montado
@@ -77,9 +78,9 @@ Por último tenemos la fase de desmontado. Se ejecuta cada vez que un componente
 
 Esta fase se compone de un solo método y es el **componentWillUnmount**.
 
-Es común utilizar este método por ejemplo para eliminar los temporizadores.
+Es común utilizar este método por ejemplo para eliminar los temporizadores o quitar eventos sobre el DOM, como escuchar un scroll o resize.
 
-## Un ejemplo
+## Un ejemplo - CAPAZ QUE SACARIA ESTE EJEMPLO Y DEJARIA EL PRACTICO ACA DIRECTAMENTE.
 
 Ahora que conocemos todas las fases por las que pasa un componente react, actualicemos el ejemplo que hicimos en la sección anterior.
 

@@ -55,7 +55,7 @@ Los pasos para convertirlo son 5:
 1. Crear un ES6 class, con el mismo nombre, que extienda de React.Component.
 2. Agregar un método render\(\).
 3. Mover el cuerpo de la function dentro del método render\(\).
-4. Remplazar la variable props por this.props dentro de render\(\).
+4. Reemplazar la variable props por this.props dentro de render\(\).
 5. Eliminar la function.
 
 ```javascript
@@ -77,7 +77,7 @@ Clock ahora está definido cómo una clase en lugar de cómo una function, esto 
 
 Ahora pasaremos el valor que nos llega en this.props.date al state. Para ellos seguiremos 3 pasos.
 
-1. Remplazar this.props.date por this.state.date en el método render
+1. Reemplazar this.props.date por this.state.date en el método render
 
 ```javascript
 class Clock extends React.Component {
