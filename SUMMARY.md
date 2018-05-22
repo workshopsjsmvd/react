@@ -13,6 +13,7 @@
 * [🍔 Los class component](utilizando-class-components.md)
 * [💾 Haciendo uso del State](haciendo-uso-del-state.md)
 * [♻️ Ciclo de vida de los componentes](ciclo-de-vida-de-los-componentes.md)
+* 🔮 Virtual dom
 * [🦁 Manipulando el dom con refs](manipulando-el-dom-con-refs.md)
 * [✏️ Creando formularios](creando-formularios.md)
 * [🦍 Haciendo un HTTP request con react](haciendo-un-http-request-con-react.md)
