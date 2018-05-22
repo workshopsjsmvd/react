@@ -64,6 +64,10 @@ Es muy común que los eventos de los class components estén escritos en un mét
 import React, { Component } from 'react';
 ​
 class MyComponent extends Component {
+  constructor() {
+    this.execute = this.execute.bind(this);
+  }
+  
   execute(event) {
     console.log('click');
   }

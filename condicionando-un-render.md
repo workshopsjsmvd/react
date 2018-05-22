@@ -55,6 +55,8 @@ ReactDOM.render(
 
 Para ver aprender más sobre cómo condicionar un render puedes [ingresar aquí.](https://reactjs.org/docs/conditional-rendering.html)
 
+PENDIENTE un condicional en render
+
 ## Práctico
 
 Llevemos esto a la práctica, vamos a bla bla bla bla bla

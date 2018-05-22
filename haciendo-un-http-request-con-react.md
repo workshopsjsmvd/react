@@ -26,7 +26,7 @@ Ya que react no se encarga de hacer llamados HTTP necesitaremos una librería pa
 * [Superagent](https://github.com/visionmedia/superagent)
 * [Fetch](https://github.com/github/fetch) \(es el standard y no es necesario instalar nada, es soportada por los navegadores\)
 
-Nuestra opción favorita es usar fetch y por eso la utilizaremos en el ejemplo, pero sientete libre de utilizar la que más te guste.
+En nuestro caso vamos usar fetch porque es soportada por los navegadores sin necesidad de agregar ninguna dependencia, pero sientete libre de utilizar la que más te guste.
 
 ###  Obteniendo la data
 

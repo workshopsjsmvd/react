@@ -4,7 +4,7 @@ description: >-
   desarrollo de aplicaciones con react.
 ---
 
-# 💣 Remplazando createElement por JSX
+# 💣 Reemplazando createElement por JSX
 
 ## Introducción
 

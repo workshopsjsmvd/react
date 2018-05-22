@@ -17,7 +17,6 @@ Utilizaremos la versión 16 de react.
 
 ## Materiales
 
-* 📽 Slides
 * 📹 [Proyecto](https://github.com/workshopsjsmvd/react/tree/master/practico)
 
 ## Temas

@@ -4,7 +4,7 @@ description: >-
   aplicaciones construidas con react.
 ---
 
-# ✈️ Presentational y Container components
+# ✈️ Patrones avanzados
 
 ## Introducción
 
