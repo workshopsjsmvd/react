@@ -6,6 +6,7 @@
         <!-- Dependencias de React!-->
         <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
         <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
         <script src="./data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
@@ -26,14 +27,19 @@
         </div>
     </body>
 
-    <script type="text/javascript">
+    <script type="text/babel">
         const root = document.getElementById('root');
-        const title = document.createElement('h1');
 
-        title.textContent = 'Workshop de JS!'
-        title.className = 'workshop-js';
+        const title = (
+            <div className="workshop-js">
+                <h1 className="workshop-js__title">Workshop de js!</h1>
+                <div className="item">Iphone 32 GB Negro</div>
+                <div className="item">Iphone 64 GB Negro</div>
+                <div className="item">Iphone 32 GB Blanco</div>
+            </div>
+        );
 
-        root.appendChild(title);
+        ReactDOM.render(title, root);
     </script>
 
 </html>

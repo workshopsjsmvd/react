@@ -30,12 +30,14 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
+        const item = (props) => (<div className="item">{props.name}</div>);
+
         const title = (
             <div className="workshop-js">
                 <h1 className="workshop-js__title">Workshop de js!</h1>
-                <div className="item">Iphone 32 GB Negro</div>
-                <div className="item">Iphone 64 GB Negro</div>
-                <div className="item">Iphone 32 GB Blanco</div>
+                {item({ name: 'Iphone 32 GB Negro' })}
+                {item({ name: 'Iphone 64 GB Negro' })}
+                {item({ name: 'Iphone 32 GB Blanco' })}
             </div>
         );
 
