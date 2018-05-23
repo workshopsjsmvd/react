@@ -23,6 +23,4 @@ Los archivos actuales que se encuentran en este repositorio son:
 
 Para abrir la aplicación, solo tienes que hacer click en index.html y abrirlo con tu browser de preferencia. Recomendamos que uses Chrome debido a las facilidades que tiene el browser para hacer debugging.
 
-Cuando hagas click en index.html, deberías ver lo siguiente:
-![components](../.gitbook/assets/primer-componente-1.png)
-
+Para comenzar con el primer cambio, hacé click [aquí](https://github.com/workshopsjsmvd/react/tree/master/practico/steps/first-component)
