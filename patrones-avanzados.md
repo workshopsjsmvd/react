@@ -1,10 +1,3 @@
----
-description: >-
-  Luego de un tiempo, si estamos desarrollando una app en React, vamos a notar
-  que comenzamos a tener diferentes necesidades de mantenibilidad y
-  escalabilidad que podemos lograr usando algunos patrones.
----
-
 # ✈️ Patrones avanzados
 
 ## Presentation y Container components

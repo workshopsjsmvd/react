@@ -41,5 +41,9 @@ HelloWord.defaultProps = {
 
 ## Práctico
 
-Llevemos esto a la práctica, vamos a bla bla bla bla bla
+Llevemos esto a la práctica, para eso entremos al siguiente link!
+
+{% embed data="{\"url\":\"https://github.com/workshopsjsmvd/react/tree/master/practico/steps/prop-types\",\"type\":\"link\",\"title\":\"workshopsjsmvd/react\",\"description\":\"react - Workshop sobre React\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/38766393?s=400&v=4\",\"width\":240,\"height\":240,\"aspectRatio\":1}}" %}
+
+
 
