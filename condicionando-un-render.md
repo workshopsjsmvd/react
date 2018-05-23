@@ -1,7 +1,3 @@
----
-description: En esta sección aprenderás a condicionar el render de un componente (la UI).
----
-
 # 🤡 Condicionando un render
 
 ## ¿Cómo lo hacemos?

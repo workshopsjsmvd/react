@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás a manejar eventos. Por ejemplo a cómo disparar una
-  function cuando un usuario da click en un botón.
----
-
 # 💫 Manejo de eventos
 
 ## Handling Events

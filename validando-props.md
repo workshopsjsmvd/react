@@ -1,7 +1,3 @@
----
-description: En esta sección aprenderás a validar las propiedades que recibe un componente.
----
-
 # 👮 Validando props
 
 ## PropTypes

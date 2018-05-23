@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás sobre cómo funciona un patrón muy utilizado en las
-  aplicaciones construidas con react.
----
-
 # ✈️ Patrones avanzados
 
 ## Introducción

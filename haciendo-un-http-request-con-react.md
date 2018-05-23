@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás a hacer llamados AJAX para traer data a la
-  aplicación.
----
-
 # 🦍 Haciendo un HTTP request con react
 
 ## Introducción

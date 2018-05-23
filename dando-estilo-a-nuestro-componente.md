@@ -1,7 +1,3 @@
----
-description: En esta sección aprenderás a darle estilo a los componentes.
----
-
 # 💅 Dando estilo a nuestro  componente
 
 ## Estilos con react

@@ -1,7 +1,3 @@
----
-description: En esta sección hablaremos sobre por que esta bueno aprender react.
----
-
 # 🤷 ¿Por qué aprender React?
 
 ## ¿Qué es React?
@@ -30,7 +26,7 @@ Si hoy en día tenemos problemas entre diferentes navegadores, eventos, etc imag
 
 #### 2010
 
-Para cubrir las necesidades que tenía jQuery llega [BackboneJS](http://backbonejs.org/). Nos ayudaba a interactuar con datos, por ejemplo a trabajar con listas. jQuery se encargaba de la UI y Backbone se encargaba del trabajo con los datos de la aplicación.
+Luego de un tiempo, comenzaron a aparecer las primeras señales de frameworks. La primera fue [BackboneJS](http://backbonejs.org/), un framework de js que trata de facilitar el manejo de modelos, colecciones y vistas, buscando ser un framework MVC.
 
 #### 2012 llegan los frameworks
 

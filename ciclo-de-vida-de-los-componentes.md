@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás cómo funciona el ciclo de vida de los componentes
-  en react.
----
-
 # ♻️ Ciclo de vida de los componentes
 
 ## Introducción

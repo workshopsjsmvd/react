@@ -1,7 +1,3 @@
----
-description: En esta sección aprenderás a manejar listas con react.
----
-
 # 📝 Listas
 
 ## En JavaScript

@@ -1,10 +1,3 @@
----
-description: >-
-  En esta sección aprenderás como react maneja los componentes por debajo.
-  Quizás nunca vuelvas a utilizar React.createElement pero es importante que
-  entiendas cómo funciona.
----
-
 # 🤓 Creando elementos HTML con React.createElement API
 
 ## Creando un elemento HTML sin React

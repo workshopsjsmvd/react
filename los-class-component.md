@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás que es un class component y cuales son sus
-  características.
----
-
 # 🍔 Los class component
 
 ## Introducción

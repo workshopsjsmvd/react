@@ -1,8 +1,7 @@
 ---
 description: >-
   React es una de las mejores opciones para el desarrollo front end en la
-  actualidad. En este workshop vas a aprender la simpleza y el poder de esta
-  librería.
+  actualidad.
 ---
 
 # Conociendo React

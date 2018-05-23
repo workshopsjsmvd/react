@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás que es JSX y porque es tan importante en el
-  desarrollo de aplicaciones con react.
----
-
 # 💣 Reemplazando createElement por JSX
 
 ## Introducción

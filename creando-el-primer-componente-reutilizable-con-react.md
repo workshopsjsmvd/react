@@ -1,10 +1,3 @@
----
-description: >-
-  En esta sección aprenderás a crear un componente reutilizable. Veremos que son
-  las props de un componente, esto es clave para poder reutilizar y construir
-  aplicaciones con react.
----
-
 # 🎉 Creando el primer componente reutilizable con React
 
 ## Arquitectura orientada a componentes

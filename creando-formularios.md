@@ -1,7 +1,3 @@
----
-description: En esta sección aprenderás crear un formulario con react.
----
-
 # ✏️ Creando formularios
 
 ## Introducción

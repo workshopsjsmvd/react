@@ -1,9 +1,3 @@
----
-description: >-
-  En esta sección aprenderás que es y cómo podemos utilizar el state de los
-  componentes react.
----
-
 # 💾 Haciendo uso del State
 
 ## Introducción
