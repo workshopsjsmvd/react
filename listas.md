@@ -84,7 +84,5 @@ ReactDOM.render(
 
 Las keys ayudan a react a identificar qué elementos han cambiado, se han agregado o se han eliminado de la lista.
 
-## Práctico
 
-Llevemos esto a la práctica, vamos a bla bla bla bla bla
 
