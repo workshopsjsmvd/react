@@ -39,14 +39,18 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
-        const Item = (props) => (
-            <div className={props.className} style={{
-                backgroundColor: props.condition === 'new' ? 'green' : 'blue',
-                color: 'white'
-            }}>
-                {props.children}
-            </div>
-        );
+        class Item extends React.Component {
+            render() {
+                return (
+                    <div className={this.props.className} style={{
+                        backgroundColor: this.props.condition === 'new' ? 'green' : 'blue',
+                        color: 'white'
+                    }}>
+                        {this.props.children}
+                    </div>
+                );
+            }
+        }
 
         const Promotion = (props) => {
             return (<div>
@@ -71,7 +75,7 @@
                 const oldItem = this.state.promotion;
                 const newItem = nextState && nextState.promotion;
 
-                return (oldItem.id !== newItem.id);
+                return (oldItem.id !== newItem.id) || this.state.items.length !== nextState.items.length;
             }
 
             componentDidMount() {
@@ -89,16 +93,25 @@
             onChange(e) {
                 const text = e.target.value;
                 const filteredItems = api.search(text);
-                this.setState({
-                    items: filteredItems
-                })
+                if (text) {
+                    fetch(`https://api.mercadolibre.com/sites/MLU/search?q=${text}&limit=15`)
+                    .then(res => {
+                        return res.json();
+                    })
+                    .then(res => {
+                        api.set(res);
+                        this.setState({
+                            items: api.get()
+                        })
+                    });
+                }
             }
 
             render() {
                 return (
                     <div className="workshop-js">
                         <h1 className="workshop-js__title">Workshop de js!</h1>
-                        <input type="text" onChange={this.onChange} />
+                        <input type="text" onChange={this.onChange} value={this.state.text} />
                         <Promotion item={this.state.promotion} />
                         <h1>Otras Publicaciones</h1>
                         {

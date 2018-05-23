@@ -1,4 +1,4 @@
-const itemsResponse = {
+let itemsResponse = {
     "site_id": "MLU",
     "query": "iphone",
     "paging": {
@@ -2136,6 +2136,9 @@ const itemsResponse = {
 
 const api = {
     data: itemsResponse,
+    set: (itemsResp) => {
+      itemsResponse = itemsResp;
+    },
     get: () => {
         return itemsResponse.results;
     },
