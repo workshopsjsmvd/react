@@ -70,7 +70,5 @@ Como verás nuestra function handleClick recibe un parámetro event automáticam
 
 [Acá puedes aprender mas](https://reactjs.org/docs/handling-events.html) sobre cómo manejar los eventos en react.
 
-## Práctico
 
-Llevemos esto a la práctica, vamos a bla bla bla bla bla
 
