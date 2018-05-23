@@ -1,8 +1,6 @@
 # Listas, renders condicionales y estilos!
 
 ## ¿Qué estaremos haciendo?
-Hasta ahora, tenemos un listado de un componente llamado item, que debería validar algunas props dentro de dicho componente
-
 Para aplicar lo que hemos aprendido hasta ahora, deberás realizar:
 - A partir de una lista de items que se encuentra global (ver más abajo), hacer un render iterando por cada item, utilizando el componente que ya teníamos
 - Para hacer el render, validar que el listado no sea vacío
