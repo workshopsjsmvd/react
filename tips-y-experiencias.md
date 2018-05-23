@@ -42,5 +42,9 @@ De la mano con esto, podemos hacer que las variables que estamos guardando en el
 
 De la misma manera que exportamos React.Component, podemos hacer uso de React.PureComponent. La diferencia entre estos tipos de componentes es que PureComponent si implementa shouldComponentUpdate, y realiza una comparación shallow de las props y del state.
 
+Para una lectura más avanzada y con ejemplos reales de optimización de Performance, pueden leer el siguiente artículo por el equipo de AirBnb:
+
+{% embed data="{\"url\":\"https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4\",\"type\":\"link\",\"title\":\"React Performance Fixes on Airbnb Listing Pages\",\"description\":\"There may be low-hanging fruit 🥝 affecting performance in areas you might not track very closely but are still important.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*MlNQKg-sieBGW5prWoe9HQ.jpeg\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/1200/0\*ZPHyNBzpm6oT1dqu.\",\"width\":1148,\"height\":515,\"aspectRatio\":0.44860627177700346}}" %}
+
 
 
