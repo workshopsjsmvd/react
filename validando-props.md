@@ -12,7 +12,7 @@ import PropTypes from 'prop-types';
 const HelloWord = (props) => <div>{props.content}</div>
 
 HelloWord.propTypes = {
-  content: PropTypes.string
+  content: PropTypes.string.isRequired
 };
 ```
 
@@ -21,6 +21,23 @@ PropTypes [exporta una gama de validadores](https://reactjs.org/docs/typecheckin
 En este ejemplo, estamos usando PropTypes.string. Cuando el componente reciba un valor no válido para sus propiedades se mostrará un error en la consola de JavaScript. 
 
 _Por motivos de rendimiento, propTypes solo se comprueba en modo de desarrollo._
+
+Por otro lado, también se pueden definir defaultProps para props que no son requeridas:
+
+```jsx
+import PropTypes from 'prop-types';
+
+const HelloWord = (props) => <div className={props.className}>{props.content}</div>
+
+HelloWord.propTypes = {
+  content: PropTypes.string.isRequired,
+  className: PropTypes.string
+};
+
+HelloWord.defaultProps = {
+  className: 'hello-world'
+};
+```
 
 ## Práctico
 
