@@ -126,7 +126,7 @@ const props = {
 const element = <div {...props}>;
 ```
 
-![boom](.gitbook/assets/image.png)
+![boom](.gitbook/assets/image%20%282%29.png)
 
 Calma, más adelante veremos que es eso de las props y cómo darle estilos a nuestros componentes. 
 

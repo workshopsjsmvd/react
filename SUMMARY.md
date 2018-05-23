@@ -5,7 +5,7 @@
 * [🤓 Creando elementos HTML con React.createElement API](creando-elementos-html-con-react.createelement-api.md)
 * [💣 Reemplazando createElement por JSX](reemplazando-createelement-por-jsx.md)
 * [🎉 Creando el primer componente reutilizable con React](creando-el-primer-componente-reutilizable-con-react.md)
-* 🔮 Virtual dom
+* [🔮 Virtual dom](virtual-dom.md)
 * [👮 Validando props](validando-props.md)
 * [📝 Listas](listas.md)
 * [🤡 Condicionando un render](condicionando-un-render.md)
