@@ -16,7 +16,8 @@ Utilizaremos la versión 16 de react.
 
 ## Materiales
 
-* 📹 [Proyecto](https://github.com/workshopsjsmvd/react/tree/master/practico)
+* 💻 [Proyecto](https://github.com/workshopsjsmvd/react/tree/master/practico)
+* [📽️ Slides](https://docs.google.com/presentation/d/1xmpCs_bL8O4qRHow-V-kgdOIYBBQxkmwyXs94YtJHVs/edit?usp=sharing)
 
 ## Temas
 
@@ -37,6 +38,10 @@ Utilizaremos la versión 16 de react.
   * [Template Strings](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings)
   * [Promises](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise)
 * [_React Dev Tools_](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+## Comenzando
+
+Antes de empezar [descarga el siguiente repositorio](https://github.com/workshopsjsmvd/react), lo utilizaremos en el práctico.
 
 ## Licencia
 
