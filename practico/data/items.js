@@ -1526,7 +1526,7 @@ const api = {
     getQuery: () => {
         return itemsResponse.query;
     },
-    filter: (name) => {
-        return itemsResponse.results.filter((item) => item.title.indexOf(name) >= 0);
+    search: (name) => {
+        return itemsResponse.results.filter((item) => item.title.toLowerCase().indexOf(name) >= 0);
     }
 }

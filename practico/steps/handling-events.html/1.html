@@ -8,7 +8,7 @@
         <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
         <script src="https://unpkg.com/prop-types@15.6.1/prop-types.js"></script>
-        <script src="../data/items.js"></script>
+        <script src="../../data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
             rel="stylesheet"
@@ -18,7 +18,7 @@
         />
         <link
             rel="stylesheet"
-            href="../base.css"
+            href="../../base.css"
         />
         <style>
             .item {
@@ -65,7 +65,7 @@
 
             onChange(e) {
                 const text = e.target.value;
-                const filteredItems = api.filter(text);
+                const filteredItems = api.search(text);
                 this.setState({
                     items: filteredItems
                 })
