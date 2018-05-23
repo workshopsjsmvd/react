@@ -40,7 +40,7 @@ Ya empezamos a entender cómo se estructuran las aplicaciones en react. Ahora ne
 Conceptualmente todo componente react es una function que recibe propiedades y retorna react elements.
 
 ```javascript
-function HelloWord(props) {
+const HelloWord = (props) => {
     return <div>{props.text}</div>;
 }
 ```
@@ -48,7 +48,7 @@ function HelloWord(props) {
 Babel transformará este código a:
 
 ```javascript
-function HelloWord(props) {
+var HelloWord = function HelloWord(props) {
     return React.createElement(
         "div",
         null,
@@ -124,5 +124,9 @@ Es importante tratar de dividir nuestra aplicación en componentes lo mas peque�
 
 ## Práctico
 
-Llevemos esto a la práctica, vamos a bla bla bla bla bla
+Llevemos esto a la práctica! Entrá en el siguiente link:
+
+{% embed data="{\"url\":\"https://github.com/workshopsjsmvd/react/tree/master/practico\",\"type\":\"link\",\"title\":\"workshopsjsmvd/react\",\"description\":\"react - Workshop sobre React\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/38766393?s=400&v=4\",\"width\":240,\"height\":240,\"aspectRatio\":1}}" %}
+
+
 
