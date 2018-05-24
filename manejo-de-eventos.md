@@ -51,7 +51,7 @@ Con HTML:
 </a>
 ```
 
-Con react.
+Con react:
 
 ```javascript
 const handleClick = (event)=> {
@@ -68,7 +68,9 @@ const button = () => (
 
 Como verás nuestra function handleClick recibe un parámetro event automáticamente. Event es un objeto que contiene toda la info del evento ocurrido, además nos brinda diferentes métodos cómo preventDefault\(\) para que utilicemos en nuestro event handler.
 
-[Acá puedes aprender mas](https://reactjs.org/docs/handling-events.html) sobre cómo manejar los eventos en react.
+Si quieres aprender mas sobre cómo manejar los eventos en react ingresa aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/handling-events.html\",\"type\":\"link\",\"title\":\"Handling Events - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 
 
