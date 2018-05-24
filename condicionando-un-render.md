@@ -51,7 +51,39 @@ ReactDOM.render(
 
 Para ver aprender más sobre cómo condicionar un render puedes [ingresar aquí.](https://reactjs.org/docs/conditional-rendering.html)
 
-PENDIENTE un condicional en render
+Y qué sucede si nuestro condicional lo queremos realizar dentro del componente?
+
+React permite hacer condicionales dentro de la sintáxis JSX:
+
+```jsx
+const Greeting = (props) => {
+  const isLoggedIn = props.isLoggedIn;
+  return { isLoggedIn ? <UserGreeting /> : <GuestGreeting /> };
+}
+​
+ReactDOM.render(
+  <Greeting isLoggedIn={false} />,
+  document.getElementById('root')
+);
+```
+
+También podemos hacer lo siguiente:
+
+```jsx
+const Greeting = (props) => {
+  const isLoggedIn = props.isLoggedIn;
+  return (
+    <div>
+      { isLoggedIn ? <UserGreeting /> : <GuestGreeting /> }
+      { isLoggedIn && <span>Welcome!</span> }
+    </div>;
+}
+​
+ReactDOM.render(
+  <Greeting isLoggedIn={false} />,
+  document.getElementById('root')
+);
+```
 
 
 
