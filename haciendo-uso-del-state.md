@@ -16,7 +16,7 @@ Cuando pensamos en props, pensamos en datos de iniciación de un componente. Cua
 
 Veamos un ejemplo clásico en donde necesitamos utilizar el state. Imagina que necesitas crear un componente Clock que debe ser reutilizable y encapsulado. Debe tener la capacidad de configurar su temporizador y actualizarse cada un segundo.
 
-Primero intentemos hacerlo sin el uso del state.
+Primero intentemos hacerlo sin el uso del state:
 
 ```javascript
 const Clock = (props) => (
@@ -106,7 +106,7 @@ class Clock extends React.Component {
 }
 ```
 
-Nota el detalle del llamado a super\(props\).
+**Nota el detalle del llamado a super\(props\).**
 
 3. Eliminar la prop date del elemento Clock
 
@@ -186,7 +186,9 @@ Listo, ya tenemos nuestro componente reutilizable y encapsulado.
 
 No es recomendable agregar lógica dentro del constructor, en la siguiente sección veremos cómo mejorar el código de nuestro Clock utilizando los lifecycle  methods de react.
 
-Para aprender más sobre state [ingresa aquí.](https://reactjs.org/docs/state-and-lifecycle.html)
+Para aprender más sobre state ingresa aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/state-and-lifecycle.html\",\"type\":\"link\",\"title\":\"State and Lifecycle - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ## Práctico
 
