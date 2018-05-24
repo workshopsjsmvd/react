@@ -54,9 +54,9 @@ React.createElement(
 
 Cómo mencionamos, es una mezcla de JavaScript y HTML y por eso podemos incrustar variables o incluso código directamente en el template.
 
-### Remplazando createElement por JSX
+### Reemplazando createElement por JSX
 
-A continuación remplazaremos el código que hicimos en el capitulo anterior por JSX.
+A continuación reemplazaremos el código que hicimos en el capitulo anterior por JSX.
 
 ```javascript
 <html>
@@ -79,7 +79,7 @@ A continuación remplazaremos el código que hicimos en el capitulo anterior por
 </html>
 ```
 
-Cómo verás el código es mucho mas lindo. 
+Cómo verás el código es mucho más lindo. 
 
 Además de incluir los scripts de React y React-Dom ahora agregamos [Babel](https://babeljs.io/). Babel transformará el código JSX en el código equivalente en react.
 

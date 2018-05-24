@@ -21,7 +21,7 @@ Antes de empezar con react repasemos como haríamos el clásico Hello Word sin r
 
 ## Creando un elemento HTML con React
 
-Los elementos con react se escriben de forma similar. El cambio principal esta en el document.createElement y en las propiedades de este elemento.
+Los elementos con react se escriben de forma similar. El cambio principal está en el document.createElement y en las propiedades de este elemento.
 
 Lo primero que necesitamos es importar los scripts de [React y React-Dom](https://reactjs.org/docs/cdn-links.html), con ellos tenemos acceso a la API de react.
 
