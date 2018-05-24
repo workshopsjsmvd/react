@@ -65,15 +65,19 @@ En los controlled components cada mutación de estado en un input element tendr�
 
 Por último, presta atención a la funtion handleSubmit que se ejecutará cuando el usuario confirme el formulario. Esto sucede ****gracias a que enviamos **handleSubmit** dentro de la propiedad **onSubmit**.
 
-Si quieres aprender más sobre cómo manejar formularios puedes [ingresar aquí](https://reactjs.org/docs/forms.html).
+Si quieres aprender más sobre cómo manejar formularios puedes ingresar aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/forms.html\",\"type\":\"link\",\"title\":\"Forms - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 #### Uncontrolled component
 
-Para manejar formularios existe otra técnica llamada uncontrolled component, esta no la veremos en el workshop pero puedes [aprender más aquí.](https://reactjs.org/docs/uncontrolled-components.html)
+Para manejar formularios existe otra técnica llamada uncontrolled component, esta no la veremos en el workshop pero puedes aprender más aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/uncontrolled-components.html\",\"type\":\"link\",\"title\":\"Uncontrolled Components - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ## Práctico
 
-Llevemos esto a la práctica!
+Llevemos esto a la práctica:
 
 {% embed data="{\"url\":\"https://github.com/workshopsjsmvd/react/tree/master/practico/steps/form\",\"type\":\"link\",\"title\":\"workshopsjsmvd/react\",\"description\":\"react - Workshop sobre React\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/38766393?s=400&v=4\",\"width\":240,\"height\":240,\"aspectRatio\":1}}" %}
 
