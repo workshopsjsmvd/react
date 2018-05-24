@@ -4,9 +4,9 @@ description: >-
   actualidad.
 ---
 
-# Conociendo React
+# Conociendo React!
 
-Te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas. Este workshop es para principiantes con [React](https://reactjs.org/) y/o para aquellos que buscan una mejor comprensión de sus fundamentos.
+En este práctico, te vamos a enseñar las bases que te permitirán crear aplicaciones simples o complejas. Este workshop es para principiantes con [React](https://reactjs.org/) y/o para aquellos que buscan una mejor comprensión de sus fundamentos.
 
 ![react](https://www.technoscore.com/images/services/react-js-icon.png)
 

@@ -72,7 +72,7 @@ Imagina que cada ficha de lego es un componente\(el header, el menu, el footer\)
 
 > Crear aplicaciones en React es como jugar con Legos. Me pagan por jugar con Legos - Martín
 
-Cada componente debe funcionar por si mismo pero a la vez debe poder ser conectado fácilmente con los demás.
+Cada componente debe funcionar por sí mismo pero a la vez debe poder ser conectado fácilmente con los demás.
 
 #### Independiente y dónde quieras
 
@@ -83,7 +83,7 @@ Los creadores pensaron en que se pudiera utilizar de forma independiente. Imagin
 ### Otros motivos
 
 * **Creada y utilizada por Facebook**. Es una empresa con grandes ingenieros con una aplicación gigante. El hecho de que crearon react para ellos mismos otorga credibilidad a la librería.
-* **Se utiliza muchísimo**. Si quieres conseguir un buen trabajo, debes aprender los lenguajes que se están utilizando el la industria. 
+* **Se utiliza muchísimo**. Es uno de los lenguajes más utilizados en la actualidad, y te puede abrir muchas puertas!
 * **Se puede utilizar en diferentes tipos de aplicaciones**. Con react no solo puedes crear aplicaciones web, sino que también móviles con [React Native](https://facebook.github.io/react-native/) y realidad virtual con [React 360](https://facebook.github.io/react-360/).
 * **Grandes empresas la utilizan.** Utilizado por Instagram, Netflix, Paypal, Apple, Airbnb, Mercado Libre, etc.
 
