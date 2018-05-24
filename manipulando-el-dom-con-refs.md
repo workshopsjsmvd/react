@@ -42,5 +42,9 @@ Cuando se pasa una prop ref a un elemento en el método render, se accede al nod
 const node = this.myRef.current;
 ```
 
-Para aprender mas sobre cómo utilizar refs puedes [ingresar aquí.](https://reactjs.org/docs/refs-and-the-dom.html)
+Para aprender mas sobre cómo utilizar refs puedes ingresar aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/refs-and-the-dom.html\",\"type\":\"link\",\"title\":\"Refs and the DOM - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+
+
 
