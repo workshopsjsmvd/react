@@ -128,7 +128,9 @@ ReactDOM.render(
 
 Cómo verás nuestro componente FetchGithubTemplate nos quedo super abstracto, no depende de la API que utilicemos ni de cómo manejemos el state.
 
-Para aprender más sobre este patrón [ingresa aquí.](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+Para aprender más sobre este patrón ingresa aquí:
+
+{% embed data="{\"url\":\"https://medium.com/@dan\_abramov/smart-and-dumb-components-7ca2f9a7c7d0\",\"type\":\"link\",\"title\":\"Presentational and Container Components\",\"description\":\"There’s a simple pattern I find immensely useful when writing React applications. If you’ve been doing React for a while, you have probably already discovered it. This article explains it well, but I…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*8I-HPL0bfoIzGied-dzOvA.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/1200/1\*TatfeANQMBmjrk\_nhKbZoA.jpeg\",\"width\":1200,\"height\":900,\"aspectRatio\":0.75}}" %}
 
 ## High Order Components
 
@@ -171,7 +173,9 @@ module.exports = Form;
 
 ```
 
-Con este código podemos lograr esto, pero que sucede si tenemos otro componente que al hacer alguna otra acción, necesitamos hacer el mismo comportamiento? Aquí es donde entra el High Order Component. Veamos como queda:
+Con este código podemos lograr esto,  ¿pero qué sucede si tenemos otro componente que al hacer alguna otra acción?, ¿necesitamos hacer el mismo comportamiento? Aquí es donde entra el High Order Component. 
+
+Veamos como queda:
 
 ```jsx
 const React = require('react');
@@ -201,7 +205,7 @@ const LoadingPlugin = (WrappedComponent) => class Loading extends React.Componen
 module.exports = LoadingPlugin;
 ```
 
-Por otro lado, actualizamos nuestro componente original de la siguiente manera:
+Por otro lado, actualizamos nuestro componente original:
 
 ```jsx
 const React = require('react');
@@ -227,6 +231,10 @@ class Form extends React.Component {
 module.exports = Loading(Form);
 
 ```
+
+Para aprender más sobre los HoC ingresa aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/higher-order-components.html\",\"type\":\"link\",\"title\":\"Higher-Order Components - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 
 
