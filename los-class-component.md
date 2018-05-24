@@ -78,11 +78,13 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
-Cómo verás. la sintaxis es super limpia. Más adelante iremos viendo más características de este tipo de compenente, para aprender más [puedes ingresar aquí](https://reactjs.org/docs/react-component.html).
+Cómo verás. la sintaxis es super limpia. Más adelante iremos viendo más características de este tipo de compenente, para aprender más puedes ingresar aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/react-component.html\",\"type\":\"link\",\"title\":\"React.Component - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ## Práctico
 
-Llevemos esto a la práctica!
+Llevemos esto a la práctica:
 
 {% embed data="{\"url\":\"https://github.com/workshopsjsmvd/react/tree/master/practico/steps/class-components\",\"type\":\"link\",\"title\":\"workshopsjsmvd/react\",\"description\":\"react - Workshop sobre React\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/38766393?s=400&v=4\",\"width\":240,\"height\":240,\"aspectRatio\":1}}" %}
 
