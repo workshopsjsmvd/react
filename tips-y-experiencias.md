@@ -40,7 +40,7 @@ Este método del ciclo de vida es muy importante en este aspecto, ya que nos per
 
 Cuando utilizamos React.Component, **este método devuelve por defecto true**, por lo cual cualquier cambio en el state o en props va a causar un render del componente. En caso de que tengamos props o variables en el state que no impactan en el render del componente, podemos implementar este método y hacer la evaluación del state o de las props para evitar actualizaciones innecesarias. 
 
-Otra alternativa es hacer que las variables que estamos guardando en el state pero que no afectan al render, pasen a estar a nivel de clase, y de esta manera evitamos el rerender en caso de que se actualicen.
+Otra alternativa es hacer que las variables que estamos guardando en el state pero que no afectan al render, pasen a estar a nivel de clase, y de esta manera evitamos el rerender en caso de que se actualicen sus valores.
 
 ### Pure Components
 
