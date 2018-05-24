@@ -62,7 +62,7 @@ ReactDOM.render(
 );
 ```
 
-Listo, funciona. Pero si miras la consola veras un error que menciona que debes agregar una key a cada elemento de la lista. Solucionemos eso.
+Listo, funciona. Pero si mirás la consola veras un error que menciona que debes agregar una key a cada elemento de la lista. Solucionemos eso.
 
 ```javascript
 const NumberList = (props) => {
