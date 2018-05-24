@@ -49,11 +49,9 @@ ReactDOM.render(
 );
 ```
 
-Para ver aprender más sobre cómo condicionar un render puedes [ingresar aquí.](https://reactjs.org/docs/conditional-rendering.html)
+#### ¿Qué sucede si nuestro condicional lo queremos realizar dentro del componente?
 
-Y qué sucede si nuestro condicional lo queremos realizar dentro del componente?
-
-React permite hacer condicionales dentro de la sintáxis JSX:
+React permite poner condicionales dentro del JSX:
 
 ```jsx
 const Greeting = (props) => {
@@ -85,5 +83,7 @@ ReactDOM.render(
 );
 ```
 
+Para ver aprender más sobre cómo condicionar un render puedes ingresar aquí:
 
+{% embed data="{\"url\":\"https://reactjs.org/docs/conditional-rendering.html\",\"type\":\"link\",\"title\":\"Conditional Rendering - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
