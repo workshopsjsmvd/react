@@ -56,7 +56,9 @@ El resultado será un elemento &lt;p&gt; con el estilo inline. El &lt;p&gt; cont
 
 Cómo habrás notado, las keys del object que le pasamos a la prop style deben estar escritos en [camel case](https://en.wikipedia.org/wiki/Camel_case). Otra particularidad es que los pixeles los estamos pasando como un number sin el 'px'.
 
-Para aprender más puedes [ingresar aquí.](https://reactjs.org/docs/dom-elements.html#style)
+Para aprender más puedes ingresar aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/dom-elements.html\#style\",\"type\":\"link\",\"title\":\"DOM Elements - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 #### Nota
 
@@ -66,7 +68,7 @@ Existen algunas librerías muy interesantes para apoyar a react en temas de esti
 
 ## Práctico
 
-Llevemos esto a la práctica!
+Llevemos esto a la práctica:
 
 {% embed data="{\"url\":\"https://github.com/workshopsjsmvd/react/tree/master/practico/steps/conditional-render\",\"type\":\"link\",\"title\":\"workshopsjsmvd/react\",\"description\":\"react - Workshop sobre React\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/38766393?s=400&v=4\",\"width\":240,\"height\":240,\"aspectRatio\":1}}" %}
 
