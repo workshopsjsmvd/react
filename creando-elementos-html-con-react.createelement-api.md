@@ -66,5 +66,9 @@ Un elemento creado con react es un object con propiedades, que luego ReactDOM sa
 };
 ```
 
-Para saber más sobre como funciona React por debajo puedes [ingresar aquí.](https://reactjs.org/docs/react-without-jsx.html)
+Para saber más sobre como funciona React por debajo puedes ingresar aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/react-without-jsx.html\",\"type\":\"link\",\"title\":\"React Without JSX - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+
+
 

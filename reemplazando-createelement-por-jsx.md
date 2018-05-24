@@ -130,7 +130,11 @@ const element = <div {...props}>;
 
 Calma, más adelante veremos que es eso de las props y cómo darle estilos a nuestros componentes. 
 
-Lo importante es que hayas entendido que es JSX y cómo funciona, para saber más [ingresa aquí.](https://reactjs.org/docs/introducing-jsx.html)
+Lo importante es que hayas entendido que es JSX y cómo funciona, para saber más ingresa aquí:
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/introducing-jsx.html\",\"type\":\"link\",\"title\":\"Introducing JSX - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+
+
 
 
 
