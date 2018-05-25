@@ -10,6 +10,7 @@ Intenta pasar la definición del elemento que mostra la información del item a 
 - También debemos permitir que acepte un valor númerico para poder mostrar el precio
 - Intenta varias opciones usando props o children
 
-
+El siguiente mockup te dará una idea de que es lo que se espera:
+[[.gitbook/primer-componente-con-react.png]]
 
 
