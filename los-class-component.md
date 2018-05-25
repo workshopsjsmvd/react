@@ -78,7 +78,11 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
-Cómo verás. la sintaxis es super limpia. Más adelante iremos viendo más características de este tipo de compenente, para aprender más puedes ingresar aquí:
+Cómo verás. La sintaxis es super limpia. Un detalle es la asignación del método execute en el constructor utilizando **bind\(\).** Esto lo hacemos para que el método execute tenga acceso al this de la class cuando se llame. Existe una alternativa a utilizar el bind\(\), pero no profundizaremos en eso, si quieres leer sobre el tema puedes leer el siguiente artículo.
+
+{% embed data="{\"url\":\"https://medium.com/shoutem/react-to-bind-or-not-to-bind-7bf58327e22a\",\"type\":\"link\",\"title\":\"React — to Bind or Not to Bind\",\"description\":\"When and why do we bind this to the React component method.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*jrT8aJf4drxgj6C6SNZ9eQ.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/1200/1\*dV7u8BzRaUfwgh0-1IBBRw.png\",\"width\":1200,\"height\":628,\"aspectRatio\":0.5233333333333333}}" %}
+
+Más adelante iremos viendo más características de este tipo de compenente, para aprender más puedes ingresar aquí:
 
 {% embed data="{\"url\":\"https://reactjs.org/docs/react-component.html\",\"type\":\"link\",\"title\":\"React.Component - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
