@@ -7,7 +7,8 @@
         <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
         <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
-        <script src="../../data/items.js"></script>
+        <script src="https://unpkg.com/prop-types@15.6.1/prop-types.js"></script>
+        <script src="./data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
             rel="stylesheet"
@@ -17,7 +18,7 @@
         />
         <link
             rel="stylesheet"
-            href="../../base.css"
+            href="./base.css"
         />
     </head>
 
@@ -30,22 +31,23 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
-        const Item = (props) => (<div className={props.className}>{props.children}</div>);
+        const Item = (props) => (<div className="item">{props.children} {props.price}</div>);
 
         Item.propTypes = {
-            className(props, propName, componentName) {
-                if(typeof props[propName] !== 'string') {
-                    return new Error(`oops! la prop ${propName} debería ser un string!`)
-                }
-            }
+            price: PropTypes.string,
+            children: PropTypes.string.isRequired
+        };
+
+        Item.defaultProps = {
+            price: null
         };
 
         const title = (
             <div className="workshop-js">
                 <h1 className="workshop-js__title">Workshop de js!</h1>
-                <Item className="item">Iphone 32 GB Negro</Item>
-                <Item className={true}>Iphone 64 GB Negro</Item>
-                <Item className="item">Iphone 32 GB Blanco</Item>
+                <Item price="$500">Iphone 32 GB Negro</Item>
+                <Item price="$500">Iphone 64 GB Negro</Item>
+                <Item price="$500">Iphone 32 GB Blanco</Item>
             </div>
         );
 

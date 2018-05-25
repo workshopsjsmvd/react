@@ -5,6 +5,6 @@ Hasta ahora, hemos creado un componente para nuestros productos. Le estamos pasa
 ## ¿Qué estaremos haciendo?
 Crear las prop types y default props para el componente creado
 - El resultado del componente debe ser igual al que tenías previamente
-- El componente debe validar por lo menos 2 props, e intentar definir una default prop para una de ellas
+- El componente debe validar por lo menos 2 props, e intentar definir una default prop para una de ellas, y que otra de ellas sea requerida
 
 
