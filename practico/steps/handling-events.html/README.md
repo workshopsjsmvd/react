@@ -7,5 +7,7 @@ Para aplicar lo que hemos aprendido hasta ahora, deberás realizar:
 - Crear un input de tipo texto para poder buscar títulos de items por nombre.
 - Crear un evento sobre ese input para capturar el texto y usar api.search para obtener los resultados.
 - Guardar en el state el listado de items e ir actualizandolo cuando se hace una busqueda.
-- Guardar las busquedas realizadas y mostrarlas a continuación del input
+
+Nos debería quedar de la siguiente manera:
+
 
