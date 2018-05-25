@@ -6,7 +6,10 @@ Por ahora tenemos un listado de productos, pero no tenemos encapsulado el compor
 
 ## ¿Qué estaremos haciendo?
 Intenta pasar la definición del elemento que mostra la información del item a un componente de React. Debes tener en cuenta que:
-- El resultado del componente debe ser igual al que tenías previamente
 - El componente debe aceptar que se le pase el valor del classname y el nombre del item
+- También debemos permitir que acepte un valor númerico para poder mostrar el precio
+- Intenta varias opciones usando props o children
+
+
 
 
