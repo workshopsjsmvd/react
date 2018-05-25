@@ -23,6 +23,6 @@ Los archivos actuales que se encuentran en este repositorio son:
 
 Para abrir la aplicación, solo tienes que hacer click en index.html y abrirlo con tu browser de preferencia. Recomendamos que uses Chrome debido a las facilidades que tiene el browser para hacer debugging.
 
-Para comenzar con el primer cambio, hacé click [aquí](https://github.com/workshopsjsmvd/react/tree/master/practico/steps/first-component)
+Para comenzar con el primer cambio, hacé click [aquí](https://github.com/workshopsjsmvd/react/tree/master/practico/steps/first-component/README.md)
 
 La idea es que realices los cambios directamente en el archivo index.html y base.css
