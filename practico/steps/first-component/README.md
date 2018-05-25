@@ -11,6 +11,6 @@ Intenta pasar la definición del elemento que mostra la información del item a 
 - Intenta varias opciones usando props o children
 
 El siguiente mockup te dará una idea de que es lo que se espera:
-[[.gitbook/primer-componente-con-react.png]]
+<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/.gitbook/assets/primer-componente-con-react.png" />
 
 
