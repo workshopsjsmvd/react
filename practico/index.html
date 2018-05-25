@@ -20,14 +20,6 @@
             rel="stylesheet"
             href="./base.css"
         />
-        <style>
-            .item {
-                border: 1px solid;
-                border-radius: 5px;
-                padding: 20px;
-                margin-bottom: 10px;
-            }
-        </style>
     </head>
 
     <body class="workshop-js__body">
@@ -39,47 +31,12 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
-        const Item = (props) => (
-            <div className={props.className}>
-                <img src={props.thumbnail} />
-                {props.children} &nbsp;
-                {props.price} &nbsp;
-                Condición <span style={{
-                    backgroundColor: props.condition === 'new' ? 'green' : 'blue',
-                    color: 'white'
-                }}>{ props.condition === 'new' ? 'nuevo' : 'usado'}</span> &nbsp;
-                <span>{ props.availableQuantity > 0 ? 'En stock' : 'Agotado'}</span> &nbsp;
-            </div>
-        );
-
-        Item.propTypes = {
-            price: PropTypes.string,
-            children: PropTypes.string.isRequired
-        };
-
-        Item.defaultProps = {
-            price: null
-        };
-
-        const items = api.get();
-
         const title = (
             <div className="workshop-js">
                 <h1 className="workshop-js__title">Workshop de js!</h1>
-                { items &&
-                  items.length > 0 &&
-                  items.map((item, index) =>
-                    <Item
-                        key={index}
-                        className="item"
-                        condition={item.condition}
-                        thumbnail={item.thumbnail}
-                        availableQuantity={item.available_quantity}
-                        price={`$${item.price}`}
-                    >
-                        {item.title}
-                    </Item>)
-                }
+                <div className="item">Iphone 32 GB Negro</div>
+                <div className="item">Iphone 64 GB Negro</div>
+                <div className="item">Iphone 32 GB Blanco</div>
             </div>
         );
 
