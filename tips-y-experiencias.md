@@ -87,5 +87,19 @@ Para ver más reglas de react, podés entrar aquí:
 
 {% embed data="{\"url\":\"https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules\",\"type\":\"link\",\"title\":\"yannickcr/eslint-plugin-react\",\"description\":\"eslint-plugin-react - React specific linting rules for ESLint\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/13209?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
+## Algunos otros temas para investigar
+
+### Webpack
+
+{% embed data="{\"url\":\"https://webpack.js.org/\",\"type\":\"link\",\"title\":\"webpack\",\"description\":\"webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://webpack.js.org/assets/favicon.ico\",\"aspectRatio\":0}}" %}
+
+### Jest
+
+{% embed data="{\"url\":\"https://facebook.github.io/jest/\",\"type\":\"link\",\"title\":\"Jest · 🃏 Delightful JavaScript Testing\",\"description\":\"🃏 Delightful JavaScript Testing\",\"icon\":{\"type\":\"icon\",\"url\":\"https://facebook.github.io/jest/img/favicon/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://facebook.github.io/jest/img/opengraph.png\",\"width\":796,\"height\":416,\"aspectRatio\":0.5226130653266332}}" %}
+
+### Context API
+
+{% embed data="{\"url\":\"https://reactjs.org/docs/context.html\",\"type\":\"link\",\"title\":\"Context - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+
 
 
