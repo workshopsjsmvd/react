@@ -41,7 +41,7 @@ Cómo verás tiene algunos pequeños cambios. El primero es que cambiamos el nom
 
 Otra diferencia es que no podemos retornar false para evitar el comportamiento por defecto de un  elemento HTML. Esto es algo común cuando queremos ejecutar una function dentro de un &lt;a&gt; ya que por defecto el elemento &lt;a&gt; intenta navegar.
 
-Imaginemos que tenemos un botón que es un elemento &lt;a&gt; de HTML. Queremos ejecutar una function cuando un usuario haga click en el y además queremos evitar que navegue. Veamos cómo lo haríamos con HTML y cómo con react.
+Imaginemos que tenemos un botón que es un elemento &lt;a&gt; de HTML. Queremos ejecutar una function cuando un usuario haga click en él y además queremos evitar que navegue. Veamos cómo lo haríamos con HTML y cómo con react.
 
 Con HTML:
 
