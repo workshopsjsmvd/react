@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <title>Workshop JS</title>
         <!-- Dependencias de React!-->
-        <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
-        <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/react@16.3.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.3.0/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
         <script src="https://unpkg.com/prop-types@15.6.1/prop-types.js"></script>
-        <script src="../../data/items.js"></script>
+        <script src="./data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
             rel="stylesheet"
@@ -18,7 +18,7 @@
         />
         <link
             rel="stylesheet"
-            href="../../base.css"
+            href="./base.css"
         />
         <style>
             .item {
@@ -42,17 +42,23 @@
         const Item = (props) => (
             <div className={props.className}>
                 <img src={props.thumbnail} />
-                {props.children}
+                {props.children} &nbsp;
+                {props.price} &nbsp;
                 Condición <span style={{
                     backgroundColor: props.condition === 'new' ? 'green' : 'blue',
                     color: 'white'
-                }}>{ props.condition === 'new' ? 'nuevo' : 'usado'}</span>
-                <span>{ props.availableQuantity > 0 ? 'En stock' : 'Agotado'}</span>
+                }}>{ props.condition === 'new' ? 'nuevo' : 'usado'}</span> &nbsp;
+                <span>{ props.availableQuantity > 0 ? 'En stock' : 'Agotado'}</span> &nbsp;
             </div>
         );
 
         Item.propTypes = {
-            className: PropTypes.string.isRequired
+            price: PropTypes.string,
+            children: PropTypes.string.isRequired
+        };
+
+        Item.defaultProps = {
+            price: null
         };
 
         const items = api.get();
@@ -69,6 +75,7 @@
                         condition={item.condition}
                         thumbnail={item.thumbnail}
                         availableQuantity={item.available_quantity}
+                        price={`$${item.price}`}
                     >
                         {item.title}
                     </Item>)

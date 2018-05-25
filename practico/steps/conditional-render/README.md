@@ -8,6 +8,7 @@ Para aplicar lo que hemos aprendido hasta ahora, deberás realizar:
 - Usando estilos inline, agregar algún indicativo visual en verde en caso de que el item sea nuevo (item.condition === 'new')
 - En caso de que esté agotado el item, mostrar algún indicativo del status
 - Recuerda que por cada prop que agregues, deberás agregar una validación de prop types
+- Puedes agregar algunos espacios en blanco (usando &nbsp;) si te es necesario
 
 Lista de items:
 - Dentro del scope de la aplicación, se encuentra una variable que se llama `api`, que es un entrypoint a nuestros datos. Tiene los siguientes métodos:
@@ -20,3 +21,5 @@ Lista de items:
     - available_quantity: cuantos items disponibles hay
     - condition: new || used
     - thumbnail: url de la imagen
+
+Al aplicar los cambios nos debería quedar algo así:
