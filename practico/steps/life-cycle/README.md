@@ -6,3 +6,7 @@ Para la siguiente iteración, lo que buscamos hacer es:
 - Luego, cada 2 segundos, queremos que se actualice esa publicación con otra publicación aleatoria.
 - Por último, queremos que, en caso de que la nueva publicación aleatoria sea igual a la anterior, que no se haga un render. Recuerda también tener en cuenta los otros elementos que estamos manejando en el state
 - Para la publicación destacada, crear un componente separado.
+
+Al hacer esto, nos debería quedar algo como el siguiente mockup:
+
+<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/practico/assets/life-cycle.png" />
