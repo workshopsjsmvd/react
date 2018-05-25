@@ -10,4 +10,4 @@ Ahora queremos agregar un input y un botón en cada item para poder agregar una 
 
 Aquí te dejamos un mockup para que lo tengas como guía:
 
-<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/.gitbook/assets/form.png" />
+<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/practico/assets/form.png" />
