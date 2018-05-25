@@ -8,7 +8,7 @@
         <script src="https://unpkg.com/react-dom@16.3.0/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
         <script src="https://unpkg.com/prop-types@15.6.1/prop-types.js"></script>
-        <script src="../../data/items.js"></script>
+        <script src="./data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
             rel="stylesheet"
@@ -18,16 +18,8 @@
         />
         <link
             rel="stylesheet"
-            href="../../base.css"
+            href="./base.css"
         />
-        <style>
-            .item {
-                border: 1px solid;
-                border-radius: 5px;
-                padding: 20px;
-                margin-bottom: 10px;
-            }
-        </style>
     </head>
 
     <body class="workshop-js__body">
@@ -39,19 +31,42 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
-        const Item = (props) => (
-            <div className={props.className} style={{
-                backgroundColor: props.condition === 'new' ? 'green' : 'blue',
-                color: 'white'
-            }}>
-                {props.children}
-            </div>
-        );
+        class Item extends React.Component {
+            render() {
+                const props = this.props;
+                return (<div className={props.className}>
+                    <img src={props.thumbnail} />
+                    {props.children} &nbsp;
+                    {props.price} &nbsp;
+                    Condición <span style={{
+                        backgroundColor: props.condition === 'new' ? 'green' : 'blue',
+                        color: 'white'
+                    }}>{ props.condition === 'new' ? 'nuevo' : 'usado'}</span> &nbsp;
+                    <span>{ props.availableQuantity > 0 ? 'En stock' : 'Agotado'}</span> &nbsp;
+                </div>);
+            }
+        }
 
-        const Promotion = (props) => {
+        Item.propTypes = {
+            price: PropTypes.string,
+            children: PropTypes.string.isRequired
+        };
+
+        Item.defaultProps = {
+            price: null
+        };
+
+        const Promotion = ({ item }) => {
             return (<div>
                 <h1>Publicación destacadas</h1>
-                <Item className="item" condition={props.item.condition}>{props.item.title}</Item>
+                <Item
+                    className="item"
+                    condition={item.condition}
+                    condition={item.condition}
+                    thumbnail={item.thumbnail}
+                    availableQuantity={item.available_quantity}
+                    price={`$${item.price}`}
+                >{item.title}</Item>
             </div>)
         };
 
@@ -77,7 +92,7 @@
             componentDidMount() {
                 var intervalId = setInterval(
                     () => this.setState({ promotion: api.getRandom() }),
-                    1000
+                    2000
                 );
                 this.setState({ intervalId }); 
             }
@@ -90,29 +105,31 @@
                 const text = e.target.value;
                 const filteredItems = api.search(text);
                 this.setState({
-                    items: filteredItems
-                })
+                    items: filteredItems,
+                    
+                });
             }
 
-            render() {
+            render () {
                 return (
                     <div className="workshop-js">
                         <h1 className="workshop-js__title">Workshop de js!</h1>
-                        <input type="text" onChange={this.onChange} />
-                        <Promotion item={this.state.promotion} />
+                        Buscar: <input type="text" onChange={this.onChange} />
+                        { this.state.promotion && <Promotion item={this.state.promotion} /> }
                         <h1>Otras Publicaciones</h1>
-                        {
-                            this.state.items &&
-                            this.state.items.length > 0 &&
-                            this.state.items.map((item, index) =>
-                                <Item
-                                    key={index}
-                                    className="item"
-                                    condition={item.condition}
-                                >
-                                    {item.title}
-                                </Item>
-                            )
+                        { this.state.items &&
+                          this.state.items.length > 0 &&
+                          this.state.items.map((item, index) =>
+                            <Item
+                                key={index}
+                                className="item"
+                                condition={item.condition}
+                                thumbnail={item.thumbnail}
+                                availableQuantity={item.available_quantity}
+                                price={`$${item.price}`}
+                            >
+                                {item.title}
+                            </Item>)
                         }
                     </div>
                 );
