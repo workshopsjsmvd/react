@@ -50,9 +50,42 @@ Para aprender más y con ejemplos reales de sobre optimización de performance, 
 
 {% embed data="{\"url\":\"https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4\",\"type\":\"link\",\"title\":\"React Performance Fixes on Airbnb Listing Pages\",\"description\":\"There may be low-hanging fruit 🥝 affecting performance in areas you might not track very closely but are still important.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*MlNQKg-sieBGW5prWoe9HQ.jpeg\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/1200/0\*ZPHyNBzpm6oT1dqu.\",\"width\":1148,\"height\":515,\"aspectRatio\":0.44860627177700346}}" %}
 
-### ESLINT
+### Eslint
 
-### 
+Cuando estamos trabajando en equipo y con aplicaciones productivas, está bueno realmente que sigamos un mismo estándar de programación, en lo que se refiere a la estética del código, de qué manera escribimos ciertas cosas, así como también prevenir ciertos errores que pueden surgir debido a la tecnología que estamos utilizando. Siendo JS un lenguaje no tipado y dinámico, sin proceso de compilación, existe la posibilidad de que los errores los encontremos directamente ejecutando el código.
+
+Aquí entra Eslint, una herramienta que permite a los desarrolladores determinar errores sin ejecutarlos.
+
+¿Qué tipos de errores o buenas prácticas usualmente nos puede encontrar?
+
+* Mal uso de const, let, etc.
+* Si definimos variables que no estamos utilizando
+* Si estamos cambiando las variables que nos pasan por parámetro
+* no tener ifs vacíos
+* Comparaciones usando == en vez de ===
+* Indentación estándar para todo el proyecto
+* Misma manera de escribir variables
+* etc.
+
+Para React específicamente, nos puede ayudar con lo siguiente:
+
+* Definir propTypes y defaultProps para las props que estemos utilizando
+* Detectar que falta la prop key en loop sobre componentes
+* método render debe devolver algo
+* Enforzar el uso de ES6 class components
+* etc.
+
+Para configurar eslint, pueden seguir los siguientes pasos:
+
+{% embed data="{\"url\":\"https://eslint.org/docs/user-guide/getting-started\",\"type\":\"link\",\"title\":\"Getting Started with ESLint\",\"description\":\"A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://eslint.org/img/favicon.512x512.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://eslint.org/img/favicon.512x512.png\",\"aspectRatio\":0}}" %}
+
+Para ver más reglas de eslint podés entrar al siguiente link
+
+{% embed data="{\"url\":\"https://eslint.org/docs/rules/\",\"type\":\"link\",\"title\":\"List of available rules\",\"description\":\"A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://eslint.org/img/favicon.512x512.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://eslint.org/img/favicon.512x512.png\",\"aspectRatio\":0}}" %}
+
+Para ver más reglas de react, podés entrar aquí:
+
+{% embed data="{\"url\":\"https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules\",\"type\":\"link\",\"title\":\"yannickcr/eslint-plugin-react\",\"description\":\"eslint-plugin-react - React specific linting rules for ESLint\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/13209?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
 
 
