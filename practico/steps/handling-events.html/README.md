@@ -10,4 +10,6 @@ Para aplicar lo que hemos aprendido hasta ahora, deberás realizar:
 
 Nos debería quedar de la siguiente manera:
 
+<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/practico/assets/handling-events.png" />
+
 
