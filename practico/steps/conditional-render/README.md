@@ -23,3 +23,5 @@ Lista de items:
     - thumbnail: url de la imagen
 
 Al aplicar los cambios nos debería quedar algo así:
+
+<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/.gitbook/assets/dando-estilos.png" />
