@@ -1,4 +1,4 @@
-# 💅 Dando estilo a nuestro  componente
+# 💅 9\) Dando estilo a nuestro  componente
 
 ## Estilos con react
 

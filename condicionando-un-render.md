@@ -1,4 +1,4 @@
-# 🤡 Condicionando un render
+# 🤡 8\) Condicionando un render
 
 ## ¿Cómo lo hacemos?
 

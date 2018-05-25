@@ -1,4 +1,4 @@
-# 🎉 Creando el primer componente reutilizable con React
+# 🎉 4\) Creando el primer componente reutilizable con React
 
 ## Arquitectura orientada a componentes
 

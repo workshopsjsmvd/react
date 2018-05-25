@@ -1,10 +1,16 @@
-# 💾 Haciendo uso del State
+# 💾 13\) Haciendo uso del State
 
 ## Introducción
 
-Hasta ahora veníamos viendo cómo podíamos cargar contenido dinámico en nuestros componentes a partir de las props. Ahora vamos a ver cómo podemos utilizar el state y cuales son las diferencias con las props.
+Hasta ahora veníamos viendo cómo podíamos cargar contenido dinámico en nuestros componentes a partir de las props. Ahora vamos a ver cómo podemos utilizar el state y cuáles son las diferencias con las props.
 
 Al igual que con las props, con el state podemos hacer que nuestro componente cambie la forma en que se comporta o renderiza. 
+
+## ¿Qué es el state?
+
+State es un objeto JS interno a cada componente, que intenta representar el estado actual del componente. Dicho estado puede cambiar dependiendo de la funcionalidad de la aplicación, puede cambiar por una interacción externa por ejemplo de un usuario, una llamada Ajax, etc.
+
+El state es privado a cada componente y es controlador internamente por el componente. Las props de los componentes pueden afectar como se inicializa este estado, pero luego de que se inicializa el componente, el estado es completamente manejado internamente.
 
 ## Props vs State
 

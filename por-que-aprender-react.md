@@ -1,4 +1,4 @@
-# 🤷 ¿Por qué aprender React?
+# 🤷 1\) ¿Por qué aprender React?
 
 ## ¿Qué es React?
 

@@ -1,4 +1,4 @@
-# 🛠️ Tips y experiencias
+# 🛠️ 18\) Tips y experiencias
 
 Para concluir este workshop, nos gustaría contarte un poco la experiencia que hemos tenido con react, y algunas cosas que nos gustaría comentarte para que las tengas en cuenta.
 

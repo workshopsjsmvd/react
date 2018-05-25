@@ -1,4 +1,4 @@
-# 📝 Listas
+# 📝 7\) Listas
 
 ## En JavaScript
 

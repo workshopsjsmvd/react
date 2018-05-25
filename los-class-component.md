@@ -1,4 +1,4 @@
-# 🍔 Los class component
+# 🍔 10\) Los class component
 
 ## Introducción
 

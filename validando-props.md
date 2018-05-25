@@ -1,4 +1,4 @@
-# 👮 Validando props
+# 👮 6\) Validando props
 
 ## PropTypes
 

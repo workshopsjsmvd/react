@@ -1,4 +1,4 @@
-# 💣 Reemplazando createElement por JSX
+# 💣 3\) Reemplazando createElement por JSX
 
 ## Introducción
 
