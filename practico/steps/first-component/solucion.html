@@ -7,7 +7,7 @@
         <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
         <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
-        <script src="../../data/items.js"></script>
+        <script src="../data/items.js"></script>
         <!-- Agregamos Bootstrap para que se vea un poco más lindo :) -->
         <link
             rel="stylesheet"
@@ -17,7 +17,7 @@
         />
         <link
             rel="stylesheet"
-            href="../../base.css"
+            href="./base.css"
         />
     </head>
 
@@ -30,14 +30,14 @@
     <script type="text/babel">
         const root = document.getElementById('root');
 
-        const item = (props) => (<div className="item">{props.name}</div>);
+        const Item = (props) => (<div className="item">{props.children} ${props.price}</div>);
 
         const title = (
             <div className="workshop-js">
                 <h1 className="workshop-js__title">Workshop de js!</h1>
-                {item({ name: 'Iphone 32 GB Negro' })}
-                {item({ name: 'Iphone 64 GB Negro' })}
-                {item({ name: 'Iphone 32 GB Blanco' })}
+                <Item price="500">Iphone 32 GB Negro</Item>
+                <Item price="500">Iphone 64 GB Negro</Item>
+                <Item price="500">Iphone 32 GB Blanco</Item>
             </div>
         );
 
