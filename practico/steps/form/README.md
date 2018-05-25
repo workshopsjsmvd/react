@@ -8,3 +8,6 @@ Ahora queremos agregar un input y un botón en cada item para poder agregar una 
 - Al hacer click en agregar al carrito, se debe mostrar un alert diciendo cuantos items se agregaron al carrito
 - No permitir agregar publicaciones destacadas al carrito ni publicaciones que no tengan stock
 
+Aquí te dejamos un mockup para que lo tengas como guía:
+
+<img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/.gitbook/assets/form.png" />
