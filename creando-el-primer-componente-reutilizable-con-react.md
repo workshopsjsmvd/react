@@ -120,7 +120,7 @@ import HomeCard from './components/HomeCard';
 
 Hermoso, nuestro componente ya es completamente reutilizable. Esto lo logramos gracias a las props de react. 
 
-Es importante tratar de dividir nuestra aplicación en componentes lo mas pequeños posibles, esto ayuda a que escribamos menos código, tengamos aplicaciones robustas, con menos bugs, testeables y fáciles de mantener.
+Es importante tratar de dividir nuestra aplicación en componentes lo más pequeños posibles, esto ayuda a que escribamos menos código, tengamos aplicaciones robustas, con menos bugs, testeables y fáciles de mantener.
 
 ## Práctico
 
