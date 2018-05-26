@@ -9,9 +9,9 @@ Veamos un ejemplo:
 ```javascript
 import PropTypes from 'prop-types';
 
-const HelloWord = (props) => <div>{props.content}</div>
+const HelloWorld = (props) => <div>{props.content}</div>
 
-HelloWord.propTypes = {
+HelloWorld.propTypes = {
   content: PropTypes.string.isRequired
 };
 ```
@@ -27,14 +27,14 @@ Por otro lado, también se pueden definir defaultProps para props que no son req
 ```jsx
 import PropTypes from 'prop-types';
 
-const HelloWord = (props) => <div className={props.className}>{props.content}</div>
+const HelloWorld = (props) => <div className={props.className}>{props.content}</div>
 
-HelloWord.propTypes = {
+HelloWorld.propTypes = {
   content: PropTypes.string.isRequired,
   className: PropTypes.string
 };
 
-HelloWord.defaultProps = {
+HelloWorld.defaultProps = {
   className: 'hello-world'
 };
 ```
