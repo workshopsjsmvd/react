@@ -13,6 +13,8 @@ Todos los componentes al renderizarse pasan por 4 grandes fases:
 
 En cada una de estas fases se ejecutan diferentes métodos que veremos a continuación.
 
+![Ciclo de vida de los componentes de React v16.4](.gitbook/assets/screen-shot-2018-07-24-at-13.40.28.png)
+
 ### Iniciación
 
 Es lo primero que ocurre. El primer método que se llama en esta fase es el **constructor**\(cómo vimos en la sección anterior del workshop\). En este método es donde iniciamos nuestro componente, por ejemplo: su state, sus props default, se bindean métodos, etc.
