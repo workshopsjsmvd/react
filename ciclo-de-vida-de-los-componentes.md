@@ -6,44 +6,36 @@ Al igual que las cosas en el mundo real, los componentes pasan por ciertas etapa
 
 Todos los componentes al renderizarse pasan por 4 grandes fases:
 
-1. Iniciación
-2. Montado
-3. Actualización
-4. Desmontado
+1. Montado
+2. Actualización
+3. Desmontado
 
 En cada una de estas fases se ejecutan diferentes métodos que veremos a continuación.
 
 ![Ciclo de vida de los componentes de React v16.4](.gitbook/assets/screen-shot-2018-07-24-at-13.40.28.png)
 
-### Iniciación
+### Montado
 
 Es lo primero que ocurre. El primer método que se llama en esta fase es el **constructor**\(cómo vimos en la sección anterior del workshop\). En este método es donde iniciamos nuestro componente, por ejemplo: su state, sus props default, se bindean métodos, etc.
 
 Un error común\(que cometimos en la sección anterior\) es agregar lógica dentro de este método, se recomienda no hacerlo, para ello hay otros métodos que veremos a continuación.
 
-### Montado
-
-La fase de iniciación es seguida por la fase de montado. El primer método que se ejecuta es el **componentWillMount** y es usado para lo mismo que el constructor. Cómo verás no tiene mucho sentido y por eso el equipo de react anunció que será deprecado en React v17.
-
-Lo que le sigue al componentWillMount es el método **render** que ya hemos utilizado anteriormente. Este método monta el componente en el DOM.
+Lo que le sigue es el método **render** que ya hemos utilizado anteriormente. Este método monta el componente en el DOM.
 
 Luego de que el componente es montado en el DOM se ejecuta **componentDidMount,** este método es muy utilizado. Una particularidad es que se ejecuta una sola vez en todo el ciclo de un componente, es por eso que se utiliza por ejemplo para hacer llamados AJAX.
 
 En resumen la fase de montado es el siguiente:
 
-1. **componentWillMount \(será deprecado en react v17\)**
-2. **render**
-3. **componentDidMount**
+1. **constructor**
+2. **getDerivedStateFromProps**
+3. **render**
+4. **componentDidMount**
 
 ### Actualización
 
 Una vez que el componente esta montado entra en la fase de actualización. Estos métodos se ejecutan cuando el componente sufre algún tipo de modificación.
 
-El primero que se ejecuta es el **componentWillReceiveProps\(newProps\)**. Este método se llama cada vez que cambia alguna prop de las que recibe el componente, recibe cómo parámetro las nuevas props. Este método también será deprecado en la v17 de react.
-
 El siguiente método que se ejecuta es el **shouldComponentUpdate\(nextProps, nextState, nextContext\).** Por defecto el componente se actualizará cada vez que reciba nuevas props, cambie el state o el [context](https://reactjs.org/docs/context.html). Si nosotros creemos que es innecesario actualizar el componente podemos hacer que este método retorne **false**, eso evita que se ejecute el método render.
-
-Luego se ejecuta el método **componentWillUpdate\(nextProps, nextState\)** que también será deprecado en la v17 de react.
 
 Luego, al igual que en la fase de montaje tenemos se ejecuta el método **render**.
 
@@ -60,12 +52,11 @@ Escuchara solamente los errores de sus componentes hijos.
 
 En resumen la fase de actualización es el siguiente:
 
-1. **componentWillReceiveProps \(será deprecado en react v17\)**
+1. **getDerivedStateFromProps**
 2. **shouldComponentUpdate**
-3. **componentWillUpdate \(será deprecado en react v17\)**
-4. **render**
-5. **componentDidUpdate**
-6. **componentDidCatch \(solo si ocurre un error en un hijo\)**
+3. **render**
+4. **componentDidUpdate**
+5. **componentDidCatch \(solo si ocurre un error en un hijo\)**
 
 ### Desmontado
 

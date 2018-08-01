@@ -17,7 +17,8 @@
 * [♻️ 14\) Ciclo de vida de los componentes](ciclo-de-vida-de-los-componentes.md)
 * [✏️15\) Creando formularios](creando-formularios.md)
 * [🦍 16\) Haciendo un HTTP request con react](haciendo-un-http-request-con-react.md)
-* [✈️ 17\) Patrones avanzados](patrones-avanzados.md)
+* [✈️ 17\) Patrones avanzados](patrones-avanzados/README.md)
+  * [🎉 18\) Componentización](patrones-avanzados/18-componentizacion.md)
 * [🛠️ 18\) Tips y experiencias](tips-y-experiencias.md)
 * [☎️ Contacto](contacto.md)
 
