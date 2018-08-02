@@ -8,6 +8,13 @@ Para aplicar lo que hemos aprendido hasta ahora, deberás realizar:
 - Crear un evento sobre ese input para capturar el texto y usar api.search para obtener los resultados.
 - Guardar en el state el listado de items e ir actualizandolo cuando se hace una busqueda.
 
+onChange(event) {
+    const text = event.current.target.value;
+    const items = api.search(text);
+    this.setState
+}
+
+
 Nos debería quedar de la siguiente manera:
 
 <img src="https://raw.githubusercontent.com/workshopsjsmvd/react/master/practico/assets/handling-events.png" />
