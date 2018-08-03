@@ -32,7 +32,7 @@
 
     <body class="workshop-js__body">
         <div id="root">
-            
+
         </div>
     </body>
 
@@ -74,8 +74,11 @@
             shouldComponentUpdate(nextProps, nextState) {
                 const oldItem = this.state.promotion;
                 const newItem = nextState && nextState.promotion;
-
-                return (oldItem.id !== newItem.id) || this.state.items.length !== nextState.items.length;
+                if (oldItem && newItem) {
+                    return (oldItem.id !== newItem.id) || this.state.items.length !== nextState.items.length;
+                } else {
+                    return false;
+                }
             }
 
             componentDidMount() {
@@ -83,7 +86,7 @@
                     () => this.setState({ promotion: api.getRandom() }),
                     1000
                 );
-                this.setState({ intervalId }); 
+                this.setState({ intervalId });
             }
 
             componentWillUnmount() {
